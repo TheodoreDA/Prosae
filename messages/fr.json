@@ -1,0 +1,54 @@
+{
+  "HomePage": {
+    "title": "Maison",
+    "HelloWorld": "Bonjour le monde !"
+  },
+  "CorrectionPage": {
+    "title": "Correction"
+  },
+  "InterpretariatPage": {
+    "title": "Interpretariat"
+  },
+  "AboutPage": {
+    "title": "About"
+  },
+  "ContactPage": {
+    "title": "Contact"
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {French} en {English} es {Spanish} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "correction": "Correction",
+    "interpretariat": "Interprétariat",
+    "whoAmI": "Qui suis-je",
+    "contact": "Contact"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      }
+    }
+  }
+}
