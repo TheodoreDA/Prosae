@@ -1,0 +1,22 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore Github workflows:
+**/.github
+**/workflows
+
+# Ignore dependencies:
+**/node_modules
+
+# Ingore Git files:
+**/.git
+
+# Ignore Nextjs files:
+**/.next
+
+# Ingore translations:
+**/messages
+
+# Ignore config files:
+**/*config.*
