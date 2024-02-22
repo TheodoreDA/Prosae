@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix-format": "prettier --config .prettierrc 'src/**/*.ts*' --write",
+    "format": "prettier --config .prettierrc 'src/**/*.ts*'"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "next": "14.1.0",
+    "tailwindcss": "^3.3.0"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -20,8 +23,10 @@
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.2.3"
   }
 }
