@@ -4,6 +4,10 @@ export const locales = ['en', 'fr', 'es'] as const;
 
 export const pathnames = {
   '/': '/',
+  '/who_am_i': '/who_am_i',
+  '/correction': '/correction',
+  '/interpretariat': '/interpretariat',
+  '/contact': '/contact',
 } satisfies Pathnames<typeof locales>;
 
 // Use the default: `always`
