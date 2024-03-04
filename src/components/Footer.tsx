@@ -6,7 +6,7 @@ export default function Footer(): JSX.Element {
   const t = useTranslations('Footer');
 
   return (
-    <div className="border-2 border-red-600 bg-primary">
+    <div className="border-2 border-red-600 bg-primary h-footer">
       <div>
         <div className='flex flex-row justify-between'>
           <NextIntlClientProvider messages={pick(messages, 'Footer')}>

@@ -13,7 +13,7 @@ export default function Header(): JSX.Element {
   const messages = useMessages();
 
   return (
-    <div className="flex flex-row justify-between py-10 border-2 border-red-600">
+    <div className="flex flex-row justify-between py-10 max-h-header min-h-header">
       <Image className="ml-32" src="logo-placeholder.svg" width="100" height="10" alt='prosae-logo' />
       <div className='h-20 flex flex-row items-center'>
         <NavigationLink href="/">{t('home')}</NavigationLink>

@@ -24,9 +24,9 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
 
   return (
     <html lang={locale}>
-      <body className={clsx(inter.className, 'flex flex-col min-h-screen')}>
+      <body className={clsx(inter.className, 'flex flex-col')}>
         <Header />
-        <div className="grow">{children}</div>
+        <div className="min-h-body">{children}</div>
         <Footer />
       </body>
     </html>
