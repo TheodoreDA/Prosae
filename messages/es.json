@@ -1,7 +1,10 @@
 {
   "HomePage": {
-    "title": "Casa",
-    "HelloWorld": "Hola el mundo!"
+    "title": "Accueil",
+    "Why": "POURQUOI",
+    "WouldYou": "AURIEZ-VOUS",
+    "NeedMy": "BESOIN DE MES",
+    "Services": "SERVICES ?"
   },
   "AboutPage": {
     "title": "About"

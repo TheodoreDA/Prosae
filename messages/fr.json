@@ -1,7 +1,10 @@
 {
   "HomePage": {
-    "title": "Maison",
-    "HelloWorld": "Bonjour le monde !"
+    "title": "Accueil",
+    "Why": "POURQUOI",
+    "WouldYou": "AURIEZ-VOUS",
+    "NeedMy": "BESOIN DE MES",
+    "Services": "SERVICES ?"
   },
   "CorrectionPage": {
     "title": "Correction"
@@ -31,11 +34,11 @@
     "locale": "{locale, select, fr {French} en {English} es {Spanish} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Home",
+    "home": "Accueil",
     "correction": "Correction",
     "interpretariat": "Interprétariat",
     "whoAmI": "Qui suis-je",
-    "contact": "Contact"
+    "contact": "Me contacter"
   },
   "Footer": {
     "quickLinks": "Quick Links",
