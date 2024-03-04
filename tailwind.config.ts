@@ -16,6 +16,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      height: {
+        'body': '80vh',
+        'footer': '20vh'
+      },
+      minHeight: {
+        'header': '20vh',
+        'body': '80vh'
+      },
+      maxHeight: {
+        'header': '20vh'
+      }
     },
   },
   plugins: [],
