@@ -37,6 +37,14 @@
     "whoAmI": "Qui suis-je",
     "contact": "Contact"
   },
+  "Footer": {
+    "quickLinks": "Quick Links",
+    "home": "Accueil",
+    "whoAmI": "Qui suis-je ?",
+    "correction": "Correction",
+    "interpretation": "Interprétariat",
+    "contactMe": "Me contacter"
+  },
   "PageLayout": {
     "links": {
       "docs": {
