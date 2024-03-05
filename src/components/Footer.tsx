@@ -4,19 +4,20 @@ import { NextIntlClientProvider, useMessages, useTranslations } from 'next-intl'
 export default function Footer(): JSX.Element {
   const messages = useMessages();
   const t = useTranslations('Footer');
+  const tNav = useTranslations('Navigation');
 
   return (
-    <div className="border-2 border-red-600 bg-primary h-footer">
+    <div className="bg-primary h-footer">
       <div>
         <div className='flex flex-row justify-between'>
           <NextIntlClientProvider messages={pick(messages, 'Footer')}>
             <div className='ml-20'>
               {t('quickLinks')}<br/>
-              {t('home')}<br/>
-              {t('whoAmI')}<br/>
-              {t('correction')}<br/>
-              {t('interpretation')}<br/>
-              {t('contactMe')}
+              {tNav('home')}<br/>
+              {tNav('whoAmI')}<br/>
+              {tNav('correction')}<br/>
+              {tNav('interpretariat')}<br/>
+              {tNav('contact')}
             </div>
           </NextIntlClientProvider>
           <div className='mr-20'>
