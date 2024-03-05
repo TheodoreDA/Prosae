@@ -24,7 +24,12 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
 
   return (
     <html lang={locale}>
-      <body className={clsx(inter.className, 'flex flex-col overflow-hidden h-screen')}>
+      <body
+        className={clsx(
+          inter.className,
+          'flex flex-col overflow-hidden h-screen'
+        )}
+      >
         <Header />
         <div className="min-h-body overflow-y-scroll">
           {children}

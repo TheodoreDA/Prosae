@@ -14,12 +14,20 @@ export default function Header(): JSX.Element {
 
   return (
     <div className="flex flex-row justify-between py-5 max-h-header min-h-header">
-      <Image className="ml-32" src="/logo-placeholder.svg" width="100" height="10" alt='prosae-logo' />
-      <div className='flex flex-row items-center text-2xl'>
+      <Image
+        className="ml-32"
+        src="/logo-placeholder.svg"
+        width="100"
+        height="10"
+        alt="prosae-logo"
+      />
+      <div className="flex flex-row items-center text-2xl">
         <NavigationLink href="/">{t('home')}</NavigationLink>
         <NavigationLink href="/who_am_i">{t('whoAmI')}</NavigationLink>
         <NavigationLink href="/correction">{t('correction')}</NavigationLink>
-        <NavigationLink href="/interpretariat">{t('interpretariat')}</NavigationLink>
+        <NavigationLink href="/interpretariat">
+          {t('interpretariat')}
+        </NavigationLink>
         <NavigationLink href="/contact">{t('contact')}</NavigationLink>
         <div className="mr-10">
           <NextIntlClientProvider messages={pick(messages, 'LocaleSwitcher')}>
