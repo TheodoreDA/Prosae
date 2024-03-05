@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import colors from 'tailwindcss/colors';
 
 const config: Config = {
   content: [
@@ -8,14 +9,10 @@ const config: Config = {
   ],
   theme: {
     colors: {
+      ...colors,
       'primary': '#f6efed'
     },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       height: {
         'body': '80vh',
         'footer': '20vh'
