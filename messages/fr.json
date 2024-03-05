@@ -1,10 +1,17 @@
 {
   "HomePage": {
     "title": "Accueil",
-    "Why": "POURQUOI",
-    "WouldYou": "AURIEZ-VOUS",
-    "NeedMy": "BESOIN DE MES",
-    "Services": "SERVICES ?"
+    "why": "POURQUOI",
+    "wouldYou": "AURIEZ-VOUS",
+    "needMy": "BESOIN DE MES",
+    "services": "SERVICES ?",
+    "howDoIWork": "COMMENT JE TRAVAILLE",
+    "planning": "Planning",
+    "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
+    "building": "Building",
+    "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
+    "consultation": "Consultation",
+    "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
   },
   "CorrectionPage": {
     "title": "Correction"
