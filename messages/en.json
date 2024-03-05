@@ -1,20 +1,30 @@
 {
   "HomePage": {
-    "title": "Accueil",
-    "why": "POURQUOI",
-    "wouldYou": "AURIEZ-VOUS",
-    "needMy": "BESOIN DE MES",
-    "services": "SERVICES ?",
-    "howDoIWork": "COMMENT JE TRAVAILLE",
+    "why": "WHY",
+    "wouldYou": "WOULD YOU",
+    "needMy": "NEED MY",
+    "services": "SERVICES?",
+    "howDoIWork": "HOW DO I WORK",
     "planning": "Planning",
     "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
     "building": "Building",
     "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "consultation": "Consultation",
+    "consultation": "Support",
     "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
   },
-  "AboutPage": {
-    "title": "About"
+  "CorrectionPage": {
+    "title": "Correction"
+  },
+  "InterpretariatPage": {
+    "title": "Interpretation"
+  },
+  "WhoAmIPage": {
+    "block1": "My name is Jeanne et j'aime les mots, dans toutes les langues d'ailleurs.",
+    "block2": "After a baccalauréat littéraire et une licence en langues et cultures étrangères en anglais et espagnol, je me suis lancée dans un master international centré autour de la santé, l'art et la culture.",
+    "block3": "I had the chance, pendant mes stages, d'être interprète pour l'association Armadillo en France et au Guatemala, où je suis restée deux mois. J'ai aussi été stagiaire pour Médecins du Monde en tant qu'interprète médicale auprès des demandeurs d'asiles en Croatie. Ces expériences m'ont convaincue que j'étais faite pour ce métier.",
+    "block4": "At the same time as my master, je me suis également lancée dans une formation pour devenir correctrice à l'École Française de Lecteur-Correcteur. Ma passion pour les mots et mon travail m'ont permis d'atteindre le niveau expert grâce à un score de 947 / 1 000 au Certificat Voltaire.",
+    "block5": "This Prosae adventure va me permettre de vous aider en tant qu'interprète et correctrice professionnelle, deux exercices qui me passionnent. J'ai hâte de découvrir vos projets !",
+    "payMePlease": "Pay me please!"
   },
   "ContactPage": {
     "title": "Contact"
@@ -27,27 +37,19 @@
     "title": "Page not found",
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
-  "LocaleLayout": {
-    "title": "next-intl example"
-  },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, fr {French} en {English} es {Spanish} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Accueil",
+    "home": "Home",
+    "whoAmI": "Who am I?",
     "correction": "Correction",
-    "interpretariat": "Interprétariat",
-    "whoAmI": "Qui suis-je",
-    "contact": "Me contacter"
+    "interpretariat": "Interpretation",
+    "contact": "Contact me"
   },
   "Footer": {
-    "quickLinks": "Quick Links",
-    "home": "Accueil",
-    "whoAmI": "Qui suis-je ?",
-    "correction": "Correction",
-    "interpretation": "Interprétariat",
-    "contactMe": "Me contacter"
+    "quickLinks": "Quick Links"
   },
   "PageLayout": {
     "links": {
