@@ -33,11 +33,33 @@
       "name": "Tarif réduit",
       "desc": "La correction professionnelle accessible à tous* !",
       "price": "2 € les 1 500 signes."
-    },
-    "askForAFreeEstimate": "Je demande mon devis gratuit !"
+    }
   },
   "InterpretariatPage": {
-    "title": "Interpretariat"
+    "block1": "J'interprète pour vous",
+    "block2": "en français <-> anglais et",
+    "block3": "en français <-> espagnol !",
+    "title1": "Besoin d'une interprète en France ou à l'international ?",
+    "block4": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
+    "block5": "Faites appel à moi pour vos événements professionnels ou personnels !",
+    "title2": "Quels types d'interprétations sont possibles ?",
+    "block6": "Je propose deux types d'interprétation :",
+    "block7": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
+    "block8": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
+    "block9": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée.",
+    "title3": "Quelle prestation choisir ?",
+    "formula1": {
+      "name": "À l'heure",
+      "desc": "Pour un événement entre 1 et 3 heures."
+    },
+    "formula2": {
+      "name": "À la demi-journée",
+      "desc": "Pour un événement entre 3 et 5 heures."
+    },
+    "formula3": {
+      "name": "À la journée",
+      "desc": "Pour un événement entre 5 et 8 heures*."
+    }
   },
   "WhoAmIPage": {
     "block1": "Je m'appelle Jeanne et j'aime les mots, dans toutes les langues d'ailleurs.",
@@ -67,7 +89,8 @@
     "whoAmI": "Qui suis-je ?",
     "correction": "Correction",
     "interpretariat": "Interprétariat",
-    "contact": "Me contacter"
+    "contact": "Me contacter",
+    "askForAFreeEstimate": "Je demande mon devis gratuit !"
   },
   "Footer": {
     "quickLinks": "Quick Links"
