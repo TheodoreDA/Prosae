@@ -17,7 +17,7 @@ const config: Config = {
     extend: {
       height: {
         'body': '80vh',
-        'footer': '20vh'
+        'footer': '40vh'
       },
       minHeight: {
         'header': '20vh',
