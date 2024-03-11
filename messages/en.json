@@ -70,7 +70,17 @@
     "payMePlease": "Pay me please!"
   },
   "ContactPage": {
-    "title": "Contact"
+    "title1": "Comment prendre contact ?",
+    "block1": "Je me tiens à votre disposition par mail, téléphone ou sur les réseaux sociaux via Instagram et LinkedIn. Nous pouvons également nous rencontrer si vous résidez en région nantaise ou échanger en visio !",
+    "askYourFreeEstimate": "DEMANDEZ VOTRE DEVIS GRATUIT !",
+    "title2": "Des questions ?",
+    "block2": "Je suis joignable sur Instagram, LinkedIn, par mail, par téléphone ou via ce formulaire de contact !"
+  },
+  "Form": {
+    "namePlaceholder": "Nom et Prénom",
+    "emailPlaceholder": "Adresse mail",
+    "messagePlaceholder": "Message",
+    "sendAction": "Envoyer"
   },
   "Error": {
     "title": "Something went wrong!",
