@@ -7,7 +7,7 @@ export default function InterpretariatPage() {
   const tNav = useTranslations('Navigation');
 
   return (
-    <div className='flex flex-col min-h-body mb-10 px-52'>
+    <div className='flex flex-col min-h-body mb-20 px-52'>
       {/* First block */}
       <div className="flex flex-row min-h-body space-x-40">
         <div className='w-2/5 relative'>
@@ -24,7 +24,7 @@ export default function InterpretariatPage() {
       </div>
 
       {/* Second block */}
-      <div className='flex flex-row min-h-body pt-8'>
+      <div className='flex flex-row min-h-body my-10'>
         <div className='flex flex-col w-2/3 text-3xl font-light pr-20'>
           <div className='text-5xl font-medium w-3/4'>{t("title1")}</div>
           <div className='mt-5'>{t("block4")}</div>
@@ -36,7 +36,7 @@ export default function InterpretariatPage() {
       </div>
 
       {/* Third block */}
-      <div className='flex flex-col min-h-body pt-8 text-3xl font-light'>
+      <div className='flex flex-col min-h-body mb-10 text-3xl font-light'>
         <div className='text-5xl font-medium w-2/3 leading-normal'>{t("title2")}</div>
         <div className='mt-10'>{t("block6")}</div>
         <ul className='list-disc list-outside ml-20 mt-8'>

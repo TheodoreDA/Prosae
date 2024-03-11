@@ -7,13 +7,13 @@ export default function CorrectionPage() {
   const tNav = useTranslations('Navigation');
 
   return (
-    <div className="flex flex-col min-h-body mb-10">
+    <div className="flex flex-col min-h-body mb-10 px-52">
       {/* First block */}
       <div className="w-full h-body flex flex-row">
-        <div className="h-body w-1/2 ml-40 mr-20 relative">
+        <div className="h-body w-1/2 mr-20 relative">
           <Image src={'/placeholder.png'} fill alt="placeholder" />
         </div>
-        <div className="h-body w-1/2 ml-20 mr-40 flex flex-col">
+        <div className="h-body w-1/2 ml-20 flex flex-col">
           <div className="w-full h-1/2 relative">
             <Image src={'/placeholder.png'} fill alt="placeholder" />
           </div>
@@ -24,7 +24,7 @@ export default function CorrectionPage() {
       </div>
 
       {/* Second block */}
-      <div className="w-full h-body px-40 flex flex-row">
+      <div className="w-full h-body flex flex-row my-10">
         <div className="w-2/3 pr-20 flex flex-col text-2xl font-light">
           <div className="mt-20 text-5xl">{t('title1')}</div>
           <div className="mt-14">{t('block2')}</div>
@@ -37,7 +37,7 @@ export default function CorrectionPage() {
       </div>
 
       {/* Third block */}
-      <div className="w-full h-body px-20 flex flex-col">
+      <div className="w-full h-body flex flex-col mb-10">
         <div className="text-5xl">{t('title2')}</div>
         <div className="w-full grow mt-10 flex flex-row justify-between">
           <div className="flex flex-col w-1/4">
