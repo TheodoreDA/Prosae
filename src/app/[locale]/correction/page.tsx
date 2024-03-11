@@ -70,7 +70,7 @@ export default function CorrectionPage() {
             href={'/correction'}
             className="px-10 py-3 border-2 border-black text-2xl font-light"
           >
-            {t('askForAFreeEstimate')}
+            {tNav('askForAFreeEstimate')}
           </NavigationLink>
         </div>
       </div>
