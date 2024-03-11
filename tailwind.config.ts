@@ -10,7 +10,9 @@ const config: Config = {
   theme: {
     colors: {
       ...colors,
-      'primary': '#f6efed'
+      'primary': '#f6efed',
+      'darkBrown': '#403b35',
+      'lighGray': '#f1f1f1'
     },
     extend: {
       height: {
