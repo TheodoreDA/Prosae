@@ -25,6 +25,14 @@ const config: Config = {
       },
       maxHeight: {
         'header': '20vh'
+      },
+      dropShadow: {
+        'stoke': [
+          '-1px -1px 0 #000',
+          '1px -1px 0 #000',
+          '-1px 1px 0 #000',
+          '1px 1px 0 #000'
+        ]
       }
     },
   },
