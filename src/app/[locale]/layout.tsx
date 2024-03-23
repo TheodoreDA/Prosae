@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,6 +32,7 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
         )}
       >
         <Header />
+        <BannerUnderDevelopment />
         <div className="min-h-body overflow-y-scroll">
           {children}
           <Footer />
