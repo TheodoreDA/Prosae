@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# deployment
-prosae-website.zip
+# certificates
+https_cert
 
 # dependencies
 /node_modules
@@ -18,6 +18,7 @@ prosae-website.zip
 
 # production
 /build
+prosae-website.zip
 
 # misc
 .DS_Store
