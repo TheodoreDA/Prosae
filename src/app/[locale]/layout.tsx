@@ -8,7 +8,11 @@ import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export async function generateMetadata({params: { locale }}) {
+type Props = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({params: { locale }}: Props) {
   const t = await getTranslations({locale, namespace: 'Metadata'});
  
   return {
