@@ -11,11 +11,11 @@ export default function CorrectionPage() {
       {/* First block */}
       <div className="w-full h-body flex flex-row">
         <div className="h-body w-1/2 mr-20 relative">
-          <Image src={'/placeholder.png'} fill alt="placeholder" />
+          <Image src={'/correction/1.JPG'} fill alt="placeholder" />
         </div>
         <div className="h-body w-1/2 ml-20 flex flex-col">
           <div className="w-full h-1/2 relative">
-            <Image src={'/placeholder.png'} fill alt="placeholder" />
+            <Image src={'/correction/2.JPG'} fill alt="placeholder" />
           </div>
           <div className="text-4xl text-justify leading-relaxed w-5/6 mt-10">
             {t('block1')}
@@ -32,7 +32,7 @@ export default function CorrectionPage() {
           <div className="mt-5">{t('block4')}</div>
         </div>
         <div className="w-1/3 relative">
-          <Image src={'/placeholder.png'} fill alt="placeholder" />
+          <Image src={'/correction/3.JPG'} fill alt="placeholder" />
         </div>
       </div>
 
@@ -42,7 +42,7 @@ export default function CorrectionPage() {
         <div className="w-full grow mt-10 flex flex-row justify-between">
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/correction/formule_1.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula1.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula1.desc')}</div>
@@ -50,7 +50,7 @@ export default function CorrectionPage() {
           </div>
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/correction/formule_2.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula2.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula2.desc')}</div>
@@ -58,7 +58,7 @@ export default function CorrectionPage() {
           </div>
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/correction/formule_3.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula3.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula3.desc')}</div>

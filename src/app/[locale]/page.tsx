@@ -39,17 +39,17 @@ export default function IndexPage({ params: { locale } }: Props) {
           </div>
         </div>
         <div className="w-1/2 relative">
-          <Image src={'/placeholder.png'} fill alt="placeholder"></Image>
+          <Image src={'/home/1.JPG'} fill alt="placeholder"></Image>
         </div>
       </div>
 
       {/* Second block */}
-      <div className="flex flex-col items-center h-body">
+      {/* <div className="flex flex-col items-center h-body">
         <div className="mt-10 mb-16 text-7xl font-light">{t('howDoIWork')}</div>
         <div className="flex flex-row space-x-20">
           <div className="flex flex-col items-center relative max-w-72">
             <Image
-              src={'/open-book.png'}
+              src={'/home/open-book.png'}
               width={120}
               height={120}
               alt="placeholder"
@@ -59,7 +59,7 @@ export default function IndexPage({ params: { locale } }: Props) {
           </div>
           <div className="flex flex-col items-center relative max-w-72">
             <Image
-              src={'/team-building.png'}
+              src={'/home/team-building.png'}
               width={120}
               height={120}
               alt="placeholder"
@@ -69,7 +69,7 @@ export default function IndexPage({ params: { locale } }: Props) {
           </div>
           <div className="flex flex-col items-center relative max-w-72">
             <Image
-              src={'/support-24-7.png'}
+              src={'/home/support-24-7.png'}
               width={120}
               height={120}
               alt="placeholder"
@@ -78,7 +78,7 @@ export default function IndexPage({ params: { locale } }: Props) {
             <div className="text-justify">{t('consultationDesc')}</div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

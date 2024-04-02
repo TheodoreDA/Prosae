@@ -14,13 +14,9 @@ export default function Header(): JSX.Element {
 
   return (
     <div className="flex flex-row justify-between py-5 max-h-header min-h-header">
-      <Image
-        className="ml-32"
-        src="/logo-placeholder.svg"
-        width="100"
-        height="10"
-        alt="prosae-logo"
-      />
+      <div className='ml-32 w-40 h-10 relative self-center'>
+        <Image src="/logos/logo-prosae.png" fill alt="prosae-logo" />
+      </div>
       <div className="flex flex-row items-center text-2xl">
         <NavigationLink href="/">{t('home')}</NavigationLink>
         <NavigationLink href="/who_am_i">{t('whoAmI')}</NavigationLink>

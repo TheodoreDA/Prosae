@@ -11,11 +11,11 @@ export default function InterpretariatPage() {
       {/* First block */}
       <div className="flex flex-row min-h-body space-x-40">
         <div className='w-2/5 relative'>
-          <Image src={"/placeholder.png"} fill alt='placeholder' />
+          <Image src={"/interpretariat/1.JPG"} fill alt='placeholder' />
         </div>
         <div className='w-3/5 flex flex-col text-4xl font-light'>
           <div className='w-full h-3/5 relative'>
-            <Image src={"/placeholder.png"} fill alt='placeholder' />
+            <Image src={"/interpretariat/2.JPG"} fill alt='placeholder' />
           </div>
           <div className='mt-8'>{t("block1")}</div>
           <div className='mt-3'>{t("block2")}</div>
@@ -31,7 +31,7 @@ export default function InterpretariatPage() {
           <div className='mt-10'>{t("block5")}</div>
         </div>
         <div className='w-1/3 relative'>
-          <Image src={"/placeholder.png"} fill alt='placeholder' />
+          <Image src={"/interpretariat/3.JPG"} fill alt='placeholder' />
         </div>
       </div>
 
@@ -52,21 +52,21 @@ export default function InterpretariatPage() {
         <div className="w-full grow mt-10 flex flex-row justify-between">
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/interpretariat/formule_1.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula1.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula1.desc')}</div>
           </div>
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/interpretariat/formule_2.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula2.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula2.desc')}</div>
           </div>
           <div className="flex flex-col w-1/4">
             <div className="w-full h-1/2 relative">
-              <Image src={'/placeholder.png'} fill alt="placeholder" />
+              <Image src={'/interpretariat/formule_3.png'} fill alt="placeholder" />
             </div>
             <div className="text-4xl mt-5">{t('formula3.name')}</div>
             <div className="text-xl font-light mt-3">{t('formula3.desc')}</div>

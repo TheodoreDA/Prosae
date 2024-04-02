@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 import Header from '@/components/Header';
@@ -8,10 +8,14 @@ import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Prosae',
-  description: 'Le site internet de Prosae',
-};
+export async function generateMetadata({params: { locale }}) {
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: "Prosae",
+    description: t("description")
+  };
+}
 
 type LayoutProps = {
   params: { locale: string };

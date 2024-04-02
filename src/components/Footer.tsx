@@ -31,13 +31,13 @@ export default function Footer(): JSX.Element {
           <a href="tel:+33607045087" className='w-fit'>+33 6 07 04 50 87</a>
           <a href="https://instagram.com/_prosae_" className='flex flex-row items-center w-fit'>
             <div className='w-5 h-5 relative mr-2'>
-              <Image src={"/logo-instagram.png"} fill alt='Logo Instagram' />
+              <Image src={"/logos/logo-instagram.png"} fill alt='Logo Instagram' />
             </div>
             Instagram
           </a>
           <a href="https://linkedin.com/company/prosae" className='flex flex-row items-center w-fit'>
             <div className='w-5 h-5 relative mr-2'>
-              <Image src={"/logo-linkedin.png"} fill alt='Logo Linkedin' />
+              <Image src={"/logos/logo-linkedin.png"} fill alt='Logo Linkedin' />
             </div>
             Linkedin
           </a>
