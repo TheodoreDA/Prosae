@@ -18,7 +18,7 @@ export default function IndexPage({ params: { locale } }: Props) {
     <div className="flex flex-col">
       {/* First block */}
       <div className="flex flex-row justify-between 2xl:justify-center h-body">
-        <div className="w-1/2 lg:pr-20 flex flex-col text-5xl items-end justify-center bg-primary pr-10 space-y-4">
+        <div className="w-1/2 lg:pr-20 flex flex-col text-5xl items-end justify-center pr-10 space-y-4">
           <div>{t('why')}</div>
           <div>{t('wouldYou')}</div>
           <div>{t('needMy')}</div>

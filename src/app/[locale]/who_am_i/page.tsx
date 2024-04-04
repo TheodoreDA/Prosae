@@ -21,7 +21,7 @@ export default function WhoAmIPage() {
           <div className="mt-8">{t('block5')}</div>
           <div className="mt-36 flex flex-row items-center space-x-20">
             <NavigationLink
-              href={'/who_am_i'}
+              href={'/contact'}
               className="px-10 py-3 flex-none w-72 border-2 border-black text-2xl font-light"
             >
               {t('payMePlease')}

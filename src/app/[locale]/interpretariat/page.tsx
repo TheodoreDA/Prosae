@@ -74,7 +74,7 @@ export default function InterpretariatPage() {
         </div>
         <div className="flex justify-center">
           <NavigationLink
-            href={'/interpretariat'}
+            href={'/contact'}
             className="px-10 py-3 border-2 border-black text-2xl font-light"
           >
             {tNav('askForAFreeEstimate')}
