@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
@@ -40,7 +39,7 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
         )}
       >
         <Header />
-        <BannerUnderDevelopment />
+        {/* <BannerUnderDevelopment /> */}
         <div className="min-h-body overflow-y-scroll">
           {children}
           <Footer />
