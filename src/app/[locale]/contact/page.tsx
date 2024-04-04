@@ -23,7 +23,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className='w-2/5 h-96 relative'>
-          <Image src={"/placeholder.png"} fill alt='placeholder' />
+          <Image src={"/contact/1.jpg"} fill alt='placeholder' />
         </div>
       </div>
 
