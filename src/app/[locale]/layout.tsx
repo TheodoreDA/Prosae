@@ -39,7 +39,7 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
         )}
       >
         <Header />
-        {/* <BannerUnderDevelopment /> */}
+        <BannerUnderDevelopment />
         <div className="min-h-body overflow-y-scroll">
           {children}
           <Footer />
