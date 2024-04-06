@@ -94,7 +94,7 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleSwitcher": {
-    "label": "Change language",
+    "label": "Changer de langue",
     "locale": "{locale, select, fr {French} en {English} es {Spanish} other {Unknown}}"
   },
   "Navigation": {

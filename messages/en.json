@@ -16,74 +16,74 @@
     "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
   },
   "CorrectionPage": {
-    "block1": "Autant pour les professionnels que pour les partenaires particuliers et partenaires particulières !",
-    "title1": "Pour quels types de textes ?",
-    "block2": "TOUS ! On pense souvent que la correction est faite pour corriger des romans, des pièces de théâtre, des manuscrits ou des articles.",
-    "block3": "En réalité, tout document qui comporte des mots est susceptible d'être corrigé : supports de communication, documents d'entreprise, CV, lettres de motivation, etc.",
-    "block4": "Contactez-moi et discutons de votre projet !",
-    "title2": "Quelle formule choisir ?",
+    "block1": "For professionals as well as individual and special partners!",
+    "title1": "For what types of texts?",
+    "block2": "ALL OF THEM! We often think that proofreading is for correcting novels, plays, manuscripts or articles.",
+    "block3": "In fact, any document containing words can be corrected: communication materials, company documents, CVs, covering letters, etc.",
+    "block4": "Contact me to discuss your project!",
+    "title2": "Which package to choose?",
     "formula1": {
-      "name": "Correction soignée",
-      "desc": "Nécessaire pour tous les textes",
-      "price": "3 € les 1 500 signes."
+      "name": "Careful correction",
+      "desc": "Required for all texts",
+      "price": "3 per 1,500 characters."
     },
     "formula2": {
-      "name": "Correction rigoureuse",
-      "desc": "La correction professionnelle que méritent vos créations.",
-      "price": "4 € les 1 500 signes."
+      "name": "Rigorous correction",
+      "desc": "The professional touch your creations deserve.",
+      "price": "4 per 1,500 characters."
     },
     "formula3": {
-      "name": "Tarif réduit",
-      "desc": "La correction professionnelle accessible à tous* !",
-      "price": "2 € les 1 500 signes."
+      "name": "Reduced rate",
+      "desc": "Professional proofreading available to all*!",
+      "price": "2 per 1,500 characters."
     }
   },
   "InterpretariatPage": {
-    "block1": "J'interprète pour vous",
-    "block2": "en français <-> anglais et",
-    "block3": "en français <-> espagnol !",
-    "title1": "Besoin d'une interprète en France ou à l'international ?",
-    "block4": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
-    "block5": "Faites appel à moi pour vos événements professionnels ou personnels !",
-    "title2": "Quels types d'interprétations sont possibles ?",
-    "block6": "Je propose deux types d'interprétation :",
-    "block7": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
-    "block8": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
-    "block9": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée.",
-    "title3": "Quelle prestation choisir ?",
+    "block1": "I interpret for you",
+    "block2": "in French <-> English and",
+    "block3": "in French <-> Spanish!",
+    "title1": "Need an interpreter in France or abroad?",
+    "block4": "I'd be delighted to accompany you for all your events! I can travel anywhere in France and abroad, depending on my availability. Outside Nantes, the cost of travel will be added to the price of the service chosen.",
+    "block5": "Call on me for your business or personal events!",
+    "title2": "What kinds of interpretations are possible?",
+    "block6": "I propose two types of interpretation:",
+    "block7": "consecutive interpretation: I speak after the speaker. The speaker's speech is fragmented. Interpreting only goes in one direction, English > French or Spanish > French.",
+    "block8": "bilateral interpreting: this is used during a discussion. I speak after the person but interpret in both directions, English <> French or Spanish <> French.",
+    "block9": "I don't (yet) do simultaneous or whispered interpreting.",
+    "title3": "Which service should I choose?",
     "formula1": {
-      "name": "À l'heure",
-      "desc": "Pour un événement entre 1 et 3 heures."
+      "name": "By the hour",
+      "desc": "For an event between 1 and 3 hours."
     },
     "formula2": {
-      "name": "À la demi-journée",
-      "desc": "Pour un événement entre 3 et 5 heures."
+      "name": "Half day",
+      "desc": "For an event lasting between 3 and 5 hours."
     },
     "formula3": {
-      "name": "À la journée",
-      "desc": "Pour un événement entre 5 et 8 heures*."
+      "name": "By the day",
+      "desc": "For an event between 5 and 8 hours*."
     }
   },
   "WhoAmIPage": {
-    "block1": "My name is Jeanne et j'aime les mots, dans toutes les langues d'ailleurs.",
-    "block2": "After a baccalauréat littéraire et une licence en langues et cultures étrangères en anglais et espagnol, je me suis lancée dans un master international centré autour de la santé, l'art et la culture.",
-    "block3": "I had the chance, pendant mes stages, d'être interprète pour l'association Armadillo en France et au Guatemala, où je suis restée deux mois. J'ai aussi été stagiaire pour Médecins du Monde en tant qu'interprète médicale auprès des demandeurs d'asiles en Croatie. Ces expériences m'ont convaincue que j'étais faite pour ce métier.",
-    "block4": "At the same time as my master, je me suis également lancée dans une formation pour devenir correctrice à l'École Française de Lecteur-Correcteur. Ma passion pour les mots et mon travail m'ont permis d'atteindre le niveau expert grâce à un score de 947 / 1 000 au Certificat Voltaire.",
-    "block5": "This Prosae adventure va me permettre de vous aider en tant qu'interprète et correctrice professionnelle, deux exercices qui me passionnent. J'ai hâte de découvrir vos projets !",
+    "block1": "My name is Jeanne and I love words, in any language for that matter.",
+    "block2": "After a baccalauréat in literature and a degree in foreign languages and cultures in English and Spanish, I embarked on an international master's degree focusing on health, art and culture.",
+    "block3": "During my internships, I had the chance to work as an interpreter for the Armadillo association in France and Guatemala, where I stayed for two months. I was also an intern for Médecins du Monde as a medical interpreter for asylum seekers in Croatia. These experiences convinced me that I was cut out for this job.",
+    "block4": "At the same time as my Master's degree, I also started training to become a proofreader at the École Française de Lecteur-Correcteur. My passion for words and my hard work have enabled me to achieve expert level thanks to a score of 947 / 1,000 in the Voltaire Certificate.",
+    "block5": "This Prosae adventure will allow me to help you as a professional interpreter and proofreader, two things I'm passionate about. I can't wait to see what you come up with!",
     "payMePlease": "Pay me please!"
   },
   "ContactPage": {
-    "title1": "Comment prendre contact ?",
-    "block1": "Je me tiens à votre disposition par mail, téléphone ou sur les réseaux sociaux via Instagram et LinkedIn. Nous pouvons également nous rencontrer si vous résidez en région nantaise ou échanger en visio !",
-    "askYourFreeEstimate": "DEMANDEZ VOTRE DEVIS GRATUIT !",
-    "title2": "Des questions ?",
-    "block2": "Je suis joignable sur Instagram, LinkedIn, par mail, par téléphone ou via ce formulaire de contact !"
+    "title1": "How do I get in touch?",
+    "block1": "I am at your disposal by email, telephone or on social networks via Instagram and LinkedIn. We can also meet up if you live in the Nantes region, or have a video chat!",
+    "askYourFreeEstimate": "REQUEST YOUR FREE QUOTE!",
+    "title2": "Any questions?",
+    "block2": "I can be reached on Instagram, LinkedIn, by email, by phone or via this contact form!"
   },
   "Form": {
-    "namePlaceholder": "Nom et Prénom",
-    "emailPlaceholder": "Adresse mail",
+    "namePlaceholder": "First and last name",
+    "emailPlaceholder": "E-mail address",
     "messagePlaceholder": "Message",
-    "sendAction": "Envoyer"
+    "sendAction": "Send"
   },
   "Error": {
     "title": "Something went wrong!",
@@ -103,11 +103,11 @@
     "correction": "Correction",
     "interpretariat": "Interpretation",
     "contact": "Contact me",
-    "askForAFreeEstimate": "Je demande mon devis gratuit !"
+    "askForAFreeEstimate": "Request my free quote!"
   },
   "Footer": {
     "quickLinks": "Quick Links",
-    "contactMe": "Contactez-moi !"
+    "contactMe": "Contact me!"
   },
   "Banner": {
     "underDevelopment": "Currently under heavy development"
