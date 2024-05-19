@@ -90,8 +90,8 @@
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
   },
   "NotFoundPage": {
-    "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    "title": "Page introuvable",
+    "description": "Désolé, nous n'avons pas pu trouver la page que vous cherchez."
   },
   "LocaleSwitcher": {
     "label": "Changer de langue",

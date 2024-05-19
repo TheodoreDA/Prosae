@@ -91,7 +91,7 @@
   },
   "NotFoundPage": {
     "title": "Página no encontrada",
-    "description": "Compruebe la barra de direcciones del navegador o utilice la navegación para ir a una página conocida."
+    "description": "Lo sentimos, no pudimos encontrar la página que estás buscando."
   },
   "LocaleSwitcher": {
     "label": "Cambiar de idioma",
