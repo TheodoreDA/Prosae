@@ -16,7 +16,7 @@
     "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
   },
   "CorrectionPage": {
-    "block1": "Autant pour les professionnels que pour les partenaires particuliers et partenaires particulières !",
+    "block1": "Autant pour les professionnels que pour les particuliers !",
     "title1": "Pour quels types de textes ?",
     "block2": "TOUS ! On pense souvent que la correction est faite pour corriger des romans, des pièces de théâtre, des manuscrits ou des articles.",
     "block3": "En réalité, tout document qui comporte des mots est susceptible d'être corrigé : supports de communication, documents d'entreprise, CV, lettres de motivation, etc.",
@@ -69,8 +69,7 @@
     "block2": "Après un baccalauréat littéraire et une licence en langues et cultures étrangères en anglais et espagnol, je me suis lancée dans un master international centré autour de la santé, l'art et la culture.",
     "block3": "J'ai eu l'occasion, pendant mes stages, d'être interprète pour l'association Armadillo en France et au Guatemala, où je suis restée deux mois. J'ai aussi été stagiaire pour Médecins du Monde en tant qu'interprète médicale auprès des demandeurs d'asiles en Croatie. Ces expériences m'ont convaincue que j'étais faite pour ce métier.",
     "block4": "En parallèle de mon master, je me suis également lancée dans une formation pour devenir correctrice à l'École Française de Lecteur-Correcteur. Ma passion pour les mots et mon travail m'ont permis d'atteindre le niveau expert grâce à un score de 947 / 1 000 au Certificat Voltaire.",
-    "block5": "Cette aventure avec Prosae va me permettre de vous aider en tant qu'interprète et correctrice professionnelle, deux exercices qui me passionnent. J'ai hâte de découvrir vos projets !",
-    "payMePlease": "Payez-moi svp !"
+    "block5": "Cette aventure avec Prosae va me permettre de vous aider en tant qu'interprète et correctrice professionnelle, deux exercices qui me passionnent. J'ai hâte de découvrir vos projets !"
   },
   "ContactPage": {
     "title1": "Comment prendre contact ?",

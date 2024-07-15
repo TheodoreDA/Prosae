@@ -24,7 +24,7 @@ export default function WhoAmIPage() {
               href={'/contact'}
               className="px-10 py-3 flex-none w-72 border-2 border-black text-2xl font-light"
             >
-              {t('payMePlease')}
+              {tNav('askForAFreeEstimate')}
             </NavigationLink>
             <div className="h-0 grow border border-black" />
           </div>
