@@ -13,24 +13,23 @@ export default function Header(): JSX.Element {
   const messages = useMessages();
 
   return (
-    <div className="flex flex-row justify-between py-5 max-h-header min-h-header">
+    <header className="flex flex-row justify-between py-5">
       <div className='ml-32 w-40 h-10 relative self-center'>
         <Image src="/logos/logo-prosae.png" fill alt="prosae-logo" />
       </div>
-      <div className="flex flex-row items-center text-2xl">
+      <div className="mr-20 flex flex-row space-x-10 items-center text-xl">
         <NavigationLink href="/">{t('home')}</NavigationLink>
         <NavigationLink href="/who_am_i">{t('whoAmI')}</NavigationLink>
         <NavigationLink href="/correction">{t('correction')}</NavigationLink>
-        <NavigationLink href="/interpretariat">
-          {t('interpretariat')}
-        </NavigationLink>
+        <NavigationLink href="/interpretariat">{t('interpretariat')}</NavigationLink>
+        <NavigationLink href="/biography">{t('biography')}</NavigationLink>
         <NavigationLink href="/contact">{t('contact')}</NavigationLink>
-        <div className="mr-10">
+        <div className="">
           <NextIntlClientProvider messages={pick(messages, 'LocaleSwitcher')}>
             <LocaleSwitcher />
           </NextIntlClientProvider>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

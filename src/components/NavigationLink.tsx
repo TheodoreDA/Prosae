@@ -18,10 +18,10 @@ export default function NavigationLink<Pathname extends AppPathnames>({
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        'inline-block transition-colors mx-12 uppercase',
+        'inline-block transition-colors uppercase',
         isActive
-          ? 'text-black font-bold'
-          : 'text-gray-600 hover:text-black font-light'
+          ? 'text-black font-extrabold underline underline-offset-8'
+          : 'text-gray-600 font-light hover:text-black hover:font-bold'
       )}
       href={href}
       {...rest}
