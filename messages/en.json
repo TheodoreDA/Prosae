@@ -3,17 +3,14 @@
     "description": "Prosae's website!"
   },
   "HomePage": {
-    "why": "WHY",
-    "wouldYou": "WOULD YOU",
-    "needMy": "NEED MY",
-    "services": "SERVICES?",
-    "howDoIWork": "HOW DO I WORK",
-    "planning": "Planning",
-    "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "building": "Building",
-    "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "consultation": "Support",
-    "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
+    "why": "POURQUOI",
+    "wouldYou": "AURIEZ-VOUS",
+    "needMy": "BESOIN DE MES",
+    "services": "SERVICES ?",
+    "importantForMe": "WHAT MATTERS FOR ME",
+    "privacy": "Privacy",
+    "caring": "Caring",
+    "reliable": "Reliable"
   },
   "CorrectionPage": {
     "block1": "For professionals and private individuals alike!",

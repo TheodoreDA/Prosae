@@ -7,13 +7,10 @@
     "wouldYou": "NECESITA",
     "needMy": "MIS",
     "services": "SERVICIOS?",
-    "howDoIWork": "CÓMO TRABAJO",
-    "planning": "Planning",
-    "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "building": "Building",
-    "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "consultation": "Consultation",
-    "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
+    "importantForMe": "CE QUI EST IMPORTANT POUR MOI",
+    "privacy": "Confidentialité",
+    "caring": "Bienveillance",
+    "reliable": "Confiance"
   },
   "CorrectionPage": {
     "block1": "¡Tanto para profesionales como para particulares!",

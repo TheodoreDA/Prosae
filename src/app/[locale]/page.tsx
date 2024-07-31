@@ -18,7 +18,7 @@ export default function IndexPage({ params: { locale } }: Props) {
     <div className="flex flex-col">
       {/* First block */}
       <div className="flex flex-row justify-between 2xl:justify-center h-body">
-        <div className="w-1/2 lg:pr-20 flex flex-col text-5xl items-end justify-center pr-10 space-y-4">
+        <div className="w-1/2 lg:pr-20 flex flex-col text-5xl items-end justify-center bg-primary pr-10 space-y-4">
           <div>{t('why')}</div>
           <div>{t('wouldYou')}</div>
           <div>{t('needMy')}</div>
@@ -44,8 +44,8 @@ export default function IndexPage({ params: { locale } }: Props) {
       </div>
 
       {/* Second block */}
-      {/* <div className="flex flex-col items-center h-body">
-        <div className="mt-10 mb-16 text-7xl font-light">{t('howDoIWork')}</div>
+      <div className="flex flex-col items-center h-body">
+        <div className="mt-10 mb-16 text-7xl font-light">{t('importantForMe')}</div>
         <div className="flex flex-row space-x-20">
           <div className="flex flex-col items-center relative max-w-72">
             <Image
@@ -54,31 +54,28 @@ export default function IndexPage({ params: { locale } }: Props) {
               height={120}
               alt="placeholder"
             />
-            <div className="my-5 text-2xl font-medium">{t('planning')}</div>
-            <div className="text-justify">{t('planningDesc')}</div>
+            <div className="my-5 text-2xl font-medium">{t('privacy')}</div>
           </div>
           <div className="flex flex-col items-center relative max-w-72">
             <Image
-              src={'/home/team-building.png'}
+              src={'/home/caring.png'}
               width={120}
               height={120}
               alt="placeholder"
             />
-            <div className="my-5 text-2xl font-medium">{t('building')}</div>
-            <div className="text-justify">{t('buildingDesc')}</div>
+            <div className="my-5 text-2xl font-medium">{t('caring')}</div>
           </div>
           <div className="flex flex-col items-center relative max-w-72">
             <Image
-              src={'/home/support-24-7.png'}
+              src={'/home/reliable.png'}
               width={120}
               height={120}
               alt="placeholder"
             />
-            <div className="my-5 text-2xl font-medium">{t('consultation')}</div>
-            <div className="text-justify">{t('consultationDesc')}</div>
+            <div className="my-5 text-2xl font-medium">{t('reliable')}</div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
