@@ -1,11 +1,11 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 
-const inter = Inter({ subsets: ['latin'] });
+const fontGaret = localFont({ src: '../../../public/fonts/Garet-Book.woff2', variable: '--font-garet' })
 
 type Props = {
   params: { locale: string };
@@ -31,10 +31,10 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
   unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${fontGaret.variable} font-sans`}>
       <body
         className={clsx(
-          inter.className,
+          fontGaret.className,
           'flex flex-col overflow-hidden h-screen'
         )}
       >
