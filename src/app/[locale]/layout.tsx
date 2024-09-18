@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 
-const fontGaret = localFont({ src: '../../../public/fonts/Garet-Book.woff2', variable: '--font-garet' })
+const fontBelleza = localFont({ src: '../../../public/fonts/Belleza-Regular.ttf', variable: '--font-belleza' })
 
 type Props = {
   params: { locale: string };
@@ -31,19 +31,12 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
   unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${fontGaret.variable} font-sans`}>
-      <body
-        className={clsx(
-          fontGaret.className,
-          'flex flex-col overflow-hidden h-screen'
-        )}
-      >
+    <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
+      <body className={clsx(fontBelleza.className, 'flex flex-col')}>
         <Header />
         <BannerUnderDevelopment />
-        <div className="min-h-body overflow-y-scroll">
-          {children}
-          <Footer />
-        </div>
+        {children}
+        <Footer />
       </body>
     </html>
   );

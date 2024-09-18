@@ -8,7 +8,7 @@ export default function WhoAmIPage() {
 
   return (
     <div className="flex flex-row h-body">
-      <div className="w-1/4 h-body relative">
+      <div className="w-1/4 h-body sticky top-0">
         <Image src={'/whoAmI/1.JPG'} fill alt="placeholder" />
       </div>
       <div className="overflow-y-scroll w-3/4 px-40 py-10">

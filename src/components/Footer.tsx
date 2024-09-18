@@ -13,15 +13,17 @@ export default function Footer(): JSX.Element {
   const tNav = useTranslations('Navigation');
 
   return (
-    <div className="bg-primary h-footer flex flex-col px-32 pt-10">
+    <div className="bg-primary min-h-footer flex flex-col px-32 pt-10">
       <div className='flex flex-row justify-center text-xl font-light'>
           <NextIntlClientProvider messages={pick(messages, 'Footer')}>
             <div className='flex flex-col pr-80 space-y-1'>
               <div className='text-2xl font-semibold pb-3'>{t('quickLinks')}</div>
               <NavigationLink className="w-fit" href={'/'}>{tNav('home')}</NavigationLink>
               <NavigationLink className="w-fit" href={'/who_am_i'}>{tNav('whoAmI')}</NavigationLink>
+              <NavigationLink className="w-fit" href={'/biography'}>{tNav('biography')}</NavigationLink>
               <NavigationLink className="w-fit" href={'/correction'}>{tNav('correction')}</NavigationLink>
               <NavigationLink className="w-fit" href={'/interpretariat'}>{tNav('interpretariat')}</NavigationLink>
+              <a className="w-fit" href={'/blog'}>{tNav('blog')}</a>
               <NavigationLink className="w-fit" href={'/contact'}>{tNav('contact')}</NavigationLink>
             </div>
           </NextIntlClientProvider>

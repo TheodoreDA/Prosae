@@ -4,9 +4,8 @@
   },
   "HomePage": {
     "why": "¿POR QUÉ",
-    "wouldYou": "NECESITA",
-    "needMy": "MIS",
-    "services": "SERVICIOS?",
+    "doYouNeed": "NECESITA",
+    "myServices": "MIS SERVICIOS?",
     "importantForMe": "CE QUI EST IMPORTANT POUR MOI",
     "privacy": "Confidentialité",
     "caring": "Bienveillance",
@@ -99,6 +98,7 @@
     "correction": "Corrección",
     "interpretariat": "Interpretar",
     "biography": "Biographie",
+    "blog": "Blog",
     "contact": "Póngase en contacto conmigo",
     "askForAFreeEstimate": "Solicite mi presupuesto gratuito"
   },

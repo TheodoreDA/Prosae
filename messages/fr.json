@@ -4,9 +4,8 @@
   },
   "HomePage": {
     "why": "POURQUOI",
-    "wouldYou": "AURIEZ-VOUS",
-    "needMy": "BESOIN DE MES",
-    "services": "SERVICES ?",
+    "doYouNeed": "AVEZ-VOUS BESOIN",
+    "myServices": "DE MES SERVICES ?",
     "importantForMe": "CE QUI EST IMPORTANT POUR MOI",
     "privacy": "Confidentialité",
     "caring": "Bienveillance",
@@ -99,6 +98,7 @@
     "correction": "Correction",
     "interpretariat": "Interprétariat",
     "biography": "Biographie",
+    "blog": "Blog",
     "contact": "Me contacter",
     "askForAFreeEstimate": "Je demande mon devis gratuit !"
   },

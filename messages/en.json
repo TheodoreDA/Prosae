@@ -3,10 +3,9 @@
     "description": "Prosae's website!"
   },
   "HomePage": {
-    "why": "POURQUOI",
-    "wouldYou": "AURIEZ-VOUS",
-    "needMy": "BESOIN DE MES",
-    "services": "SERVICES ?",
+    "why": "WHY",
+    "doYouNeed": "DO YOU NEED",
+    "myServices": "MY SERVICES?",
     "importantForMe": "WHAT MATTERS FOR ME",
     "privacy": "Privacy",
     "caring": "Caring",
@@ -99,6 +98,7 @@
     "correction": "Correction",
     "interpretariat": "Interpretation",
     "biography": "Biographie",
+    "blog": "Blog",
     "contact": "Contact me",
     "askForAFreeEstimate": "Request my free quote!"
   },

@@ -16,7 +16,7 @@ export default function ContactPage() {
           <div className="flex justify-center mt-32">
             <NavigationLink
               href={'/contact'}
-              className="px-10 py-3 rounded-full text-2xl text-white bg-darkBrown"
+              className="px-10 py-3 rounded-full text-2xl text-white bg-tertiary"
             >
               {t('askYourFreeEstimate')}
             </NavigationLink>

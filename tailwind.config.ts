@@ -10,21 +10,32 @@ const config: Config = {
   theme: {
     colors: {
       ...colors,
-      'primary': '#f6efed',
-      'darkBrown': '#403b35',
+      'primary': '#fff0e3',
+      'secondary': '#bc6c25',
+      'tertiary': '#31241e',
       'lighGray': '#f1f1f1'
     },
     extend: {
+      borderRadius: {
+        'oval': '50%',
+      },
       height: {
-        'body': '80vh',
+        'body': '90vh',
         'footer': '40vh'
       },
       minHeight: {
         'header': '20vh',
-        'body': '80vh'
+        'body': '90vh',
+        'minibody': '80vh'
       },
       maxHeight: {
-        'header': '20vh'
+        'sm': '24rem',
+        'md': '28rem',
+        'lg': '32rem',
+        'xl': '36rem',
+        '2xl': '42rem',
+        '3xl': '48rem',
+        '4xl': '56rem'
       },
       dropShadow: {
         'stoke': [
@@ -33,6 +44,12 @@ const config: Config = {
           '-1px 1px 0 #000',
           '1px 1px 0 #000'
         ]
+      },
+      borderWidth: {
+        '1': '1px'
+      },
+      top: {
+        '22': '88px'
       }
     },
   },
