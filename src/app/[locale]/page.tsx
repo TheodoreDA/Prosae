@@ -54,7 +54,7 @@ export default function IndexPage({ params: { locale } }: Props) {
         </div>
         {/* Image */}
         <div className="w-[450px] h-[675px] relative">
-          <Image src={'/home/1.JPG'} style={imageStyle} fill  alt="placeholder"></Image>
+          <Image src={'/home/1.JPG'} style={imageStyle} fill alt="Image one"></Image>
         </div>
       </div>
 

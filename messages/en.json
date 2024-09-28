@@ -61,11 +61,18 @@
     }
   },
   "WhoAmIPage": {
-    "block1": "My name is Jeanne and I love words, in any language for that matter.",
-    "block2": "After a baccalauréat in literature and a degree in foreign languages and cultures in English and Spanish, I embarked on an international master's degree focusing on health, art and culture.",
-    "block3": "During my internships, I had the chance to work as an interpreter for the Armadillo association in France and Guatemala, where I stayed for two months. I was also an intern for Médecins du Monde as a medical interpreter for asylum seekers in Croatia. These experiences convinced me that I was cut out for this job.",
-    "block4": "At the same time as my Master's degree, I also started training to become a proofreader at the École Française de Lecteur-Correcteur. My passion for words and my hard work have enabled me to achieve expert level thanks to a score of 947 / 1,000 in the Voltaire Certificate.",
-    "block5": "This Prosae adventure will allow me to help you as a professional interpreter and proofreader, two things I'm passionate about. I can't wait to see what you come up with!"
+    "block1": "After all, what if I gave a little of myself away too? With a passion for languages, cultures and literature, I took a degree in English and Spanish, followed by an international Masters in Health, Art and Culture.",
+    "block2": "My name is Jeanne and I'm a proofreader, biographer and interpreter!",
+    "title1": "But what else?",
+    "block3": "After two missed opportunities to study in Mexico because of the pandemic and then drug trafficking, I finally managed to travel to Latin America! I went to Guatemala to work with the Armadillo puppet theatre association, which had already enabled me to work as an interpreter in France. The experience of discovering this continent and its people was a real eye-opener.",
+    "block4": "I continued my globe-trotting journey as far as Croatia. Welcomed by Médecins du Monde Belgium, I blossomed as a medical interpreter working with asylum seekers in a country I didn't know, had never even studied and yet was charmed by. I refuse to give it up completely and I still travel there today as a volunteer!",
+    "block5": "Taken up with studies and exploration, I put my passion for art, music and the stage on hold for a while. But now I'm back at it, and alongside my self-employed business I'm also training to be a musical actress.",
+    "block6": "My experiences as an interpreter have led me to meet people who have changed my life and my vision of the world.They have shown me that every journey in life deserves to be highlighted, to leave a mark. Writing the book of your life seems to me to be a very good way of doing that!",
+    "callToAction": "I'm going for it!",
+    "mySkills": "My skills",
+    "voltaire": "VOLTAIRE",
+    "eflc": "EFLC TRAINING",
+    "biography": "DEVENIR BIOGRAPHE TRAINING"
   },
   "ContactPage": {
     "title1": "How do I get in touch?",

@@ -1,11 +1,16 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import localFont from 'next/font/local';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
+import { Belleza } from 'next/font/google';
 
-const fontBelleza = localFont({ src: '../../../public/fonts/Belleza-Regular.ttf', variable: '--font-belleza' })
+const fontBelleza = Belleza({
+  subsets: ["latin"],
+  weight: '400',
+  style: 'normal',
+  variable: '--font-belleza',
+});
 
 type Props = {
   params: { locale: string };
@@ -32,7 +37,7 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
 
   return (
     <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
-      <body className={clsx(fontBelleza.className, 'flex flex-col')}>
+      <body className={clsx(fontBelleza.className, 'max-w-extra mx-auto')}>
         <Header />
         <BannerUnderDevelopment />
         {children}

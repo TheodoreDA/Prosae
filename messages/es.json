@@ -61,11 +61,18 @@
     }
   },
   "WhoAmIPage": {
-    "block1": "Me llamo Jeanne y me encantan las palabras, en cualquier idioma.",
-    "block2": "Tras un bachillerato en literatura y una licenciatura en lenguas y culturas extranjeras en inglés y español, me embarqué en un máster internacional centrado en la salud, el arte y la cultura.",
-    "block3": "Durante mis prácticas, trabajé como intérprete para la asociación Armadillo en Francia y Guatemala, donde estuve dos meses. También hice prácticas para Médicos del Mundo como intérprete médico para solicitantes de asilo en Croacia. Estas experiencias me convencieron de que estaba hecha para este trabajo.",
-    "block4": "Paralelamente al máster, empecé a formarme como correctora en la École Française de Lecteur-Correcteur. Mi pasión por las palabras y mi esfuerzo me han permitido alcanzar el nivel de experto gracias a una puntuación de 947/1000 en el Certificado Voltaire.",
-    "block5": "Esta aventura con Prosae me permitirá ayudarte como intérprete y correctora profesional, dos cosas que me apasionan. ¡Estoy deseando descubrir vuestros proyectos!"
+    "block1": "Después de todo, ¿y si yo también diera un poco de mí? Apasionada de los idiomas, las culturas y la literatura, me licencié en inglés y español, a lo que siguió un máster internacional en Salud, Arte y Cultura.",
+    "block2": "Me llamo Jeanne y soy correctora, biógrafa e intérprete.",
+    "title1": "¿Pero qué más?",
+    "block3": "Tras dos oportunidades perdidas de estudiar en México a causa de la pandemia y luego del narcotráfico, ¡por fin pude viajar a América Latina! Fui a Guatemala para trabajar con la asociación de teatro de marionetas Armadillo, que ya me había permitido trabajar como intérprete en Francia. La experiencia de descubrir este continente y sus gentes me abrió los ojos.",
+    "block4": "Continué mi viaje trotamundos hasta Croacia. Acogida por Médicos del Mundo Bélgica, me desarrollé como intérprete médica trabajando con solicitantes de asilo en un país que no conocía, que ni siquiera había estudiado y que, sin embargo, me encantó. Me niego a dejarlo por completo y todavía hoy viajo allí como voluntaria.",
+    "block5": "Ocupada con los estudios y la exploración, dejé aparcada durante un tiempo mi pasión por el arte, la música y el escenario. Pero ahora he vuelto a ello y, además de trabajar por cuenta propia, me estoy formando para ser actriz de musicales.",
+    "block6": "Mis experiencias como intérprete me han llevado a conocer a personas que han cambiado mi vida y mi visión del mundo. Me han demostrado que todo viaje en la vida merece ser destacado, dejar una huella. Escribir el libro de tu vida me parece una muy buena manera de hacerlo.",
+    "callToAction": "¡Voy a por ello!",
+    "mySkills": "Mis competencias",
+    "voltaire": "VOLTAIRE",
+    "eflc": "EFLC FORMACIÓN",
+    "biography": "DEVENIR BIOGRAPHE FORMACIÓN"
   },
   "ContactPage": {
     "title1": "¿Cómo puedo ponerme en contacto?",

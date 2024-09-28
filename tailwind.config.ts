@@ -25,7 +25,7 @@ const config: Config = {
       },
       minHeight: {
         'header': '20vh',
-        'body': '90vh',
+        'body': '51rem',
         'minibody': '80vh'
       },
       maxHeight: {
@@ -37,19 +37,19 @@ const config: Config = {
         '3xl': '48rem',
         '4xl': '56rem'
       },
-      dropShadow: {
-        'stoke': [
-          '-1px -1px 0 #000',
-          '1px -1px 0 #000',
-          '-1px 1px 0 #000',
-          '1px 1px 0 #000'
-        ]
+      maxWidth: {
+        '1/2': '50%',
+        '2/5': '40%',
+        'extra': '85rem'
       },
       borderWidth: {
         '1': '1px'
       },
       top: {
         '22': '88px'
+      },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))'
       }
     },
   },
