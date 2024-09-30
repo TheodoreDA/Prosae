@@ -13,26 +13,20 @@
   },
   "CorrectionPage": {
     "block1": "Autant pour les professionnels que pour les particuliers !",
-    "title1": "Pour quels types de textes ?",
+    "title1": "Qu'est ce que je vérifie ?",
+    "spelling": "Orthographe",
+    "grammar": "Grammaire",
+    "conjugation": "Conjugaison",
+    "syntax": "Syntaxe",
+    "orthotypography": "Orthotypographie",
+    "harmonisation": "Harmonisation",
+    "internalCoherence": "Cohérence interne au récit, historique et géographique",
+    "pageLayout": "Mise en page",
+    "rewording": "Reformulations si nécessaire dans votre style d'écriture",
+    "title2": "Pour quels types de textes ?",
     "block2": "TOUS ! On pense souvent que la correction est faite pour corriger des romans, des pièces de théâtre, des manuscrits ou des articles.",
     "block3": "En réalité, tout document qui comporte des mots est susceptible d'être corrigé : supports de communication, documents d'entreprise, CV, lettres de motivation, etc.",
-    "block4": "Contactez-moi et discutons de votre projet !",
-    "title2": "Quelle formule choisir ?",
-    "formula1": {
-      "name": "Correction soignée",
-      "desc": "Nécessaire pour tous les textes",
-      "price": "3 € les 1 500 signes."
-    },
-    "formula2": {
-      "name": "Correction rigoureuse",
-      "desc": "La correction professionnelle que méritent vos créations.",
-      "price": "4 € les 1 500 signes."
-    },
-    "formula3": {
-      "name": "Tarif réduit",
-      "desc": "La correction professionnelle accessible à tous* !",
-      "price": "2 € les 1 500 signes."
-    }
+    "block4": "Contactez-moi et discutons de votre projet !"
   },
   "InterpretariatPage": {
     "block1": "J'interprète pour vous",

@@ -25,6 +25,7 @@ const config: Config = {
       },
       minHeight: {
         'header': '20vh',
+        'mini-body': '42rem',
         'body': '51rem',
         'minibody': '80vh'
       },

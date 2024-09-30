@@ -13,26 +13,20 @@
   },
   "CorrectionPage": {
     "block1": "For professionals and private individuals alike!",
-    "title1": "For what types of texts?",
+    "title1": "Qu'est ce que je vérifie ?",
+    "spelling": "Spelling",
+    "grammar": "Grammar",
+    "conjugation": "Conjugation",
+    "syntax": "Syntax",
+    "orthotypography": "Orthotypography",
+    "harmonisation": "Harmonisation",
+    "internalCoherence": "Internal coherence of the narrative, historical and geographical",
+    "pageLayout": "Page layout",
+    "rewording": "Rewording if necessary in your writing style",
+    "title2": "For what types of texts?",
     "block2": "ALL OF THEM! We often think that proofreading is for correcting novels, plays, manuscripts or articles.",
     "block3": "In fact, any document containing words can be corrected: communication materials, company documents, CVs, covering letters, etc.",
-    "block4": "Contact me to discuss your project!",
-    "title2": "Which package to choose?",
-    "formula1": {
-      "name": "Careful correction",
-      "desc": "Required for all texts",
-      "price": "3 per 1,500 characters."
-    },
-    "formula2": {
-      "name": "Rigorous correction",
-      "desc": "The professional touch your creations deserve.",
-      "price": "4 per 1,500 characters."
-    },
-    "formula3": {
-      "name": "Reduced rate",
-      "desc": "Professional proofreading available to all*!",
-      "price": "2 per 1,500 characters."
-    }
+    "block4": "Contact me to discuss your project!"
   },
   "InterpretariatPage": {
     "block1": "I interpret for you",

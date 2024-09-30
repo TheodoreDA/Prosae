@@ -13,27 +13,21 @@
   },
   "CorrectionPage": {
     "block1": "¡Tanto para profesionales como para particulares!",
-    "title1": "¿Para qué tipo de textos?",
+    "title1": "Qu'est ce que je vérifie ?",
+    "spelling": "Ortografía",
+    "grammar": "Gramática",
+    "conjugation": "Conjugación",
+    "syntax": "Sintaxis",
+    "orthotypography": "Ortotipografía",
+    "harmonisation": "Armonización",
+    "internalCoherence": "Coherencia interna de la narración, histórica y geográfica",
+    "pageLayout": "Disposición de la página",
+    "rewording": "Reformulación si es necesario en su estilo de redacción",
+    "title2": "¿Para qué tipo de textos?",
     "block2": "TODAS A menudo pensamos que corregir es corregir novelas, obras de teatro, manuscritos o artículos.",
     "block3": "De hecho, se puede corregir cualquier documento que contenga palabras: materiales de comunicación, documentos de empresa, CV, cartas de presentación, etc.",
-    "block4": "Póngase en contacto conmigo para hablar de su proyecto.",
-    "title2": "¿Qué paquete elegir?",
-    "formula1": {
-      "name": "Corrección cuidadosa",
-      "desc": "Obligatorio para todos los textos",
-      "price": "3 por cada 1.500 caracteres."
+    "block4": "Póngase en contacto conmigo para hablar de su proyecto."
     },
-    "formula2": {
-      "name": "Corrección rigurosa",
-      "desc": "El toque profesional que merecen sus creaciones.",
-      "price": "4 por cada 1.500 caracteres."
-    },
-    "formula3": {
-      "name": "Tarifa reducida",
-      "desc": "¡Corrección profesional al alcance de todos*!",
-      "price": "2 por cada 1.500 caracteres."
-    }
-  },
   "InterpretariatPage": {
     "block1": "Interpreto para usted",
     "block2": "en francés <-> inglés y",
