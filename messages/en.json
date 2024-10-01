@@ -30,29 +30,16 @@
   },
   "InterpretariatPage": {
     "block1": "I interpret for you",
-    "block2": "in French <-> English and",
-    "block3": "in French <-> Spanish!",
+    "inFrench": "in French",
+    "englishAnd": "English and",
+    "spanish": "Spanish!",
     "title1": "Need an interpreter in France or abroad?",
-    "block4": "I'd be delighted to accompany you for all your events! I can travel anywhere in France and abroad, depending on my availability. Outside Nantes, the cost of travel will be added to the price of the service chosen.",
-    "block5": "Call on me for your business or personal events!",
+    "block2": "I'd be delighted to accompany you for all your events! I can travel anywhere in France and abroad, depending on my availability. Outside Nantes, the cost of travel will be added to the price of the service chosen.",
     "title2": "What kinds of interpretations are possible?",
-    "block6": "I propose two types of interpretation:",
-    "block7": "consecutive interpretation: I speak after the speaker. The speaker's speech is fragmented. Interpreting only goes in one direction, English > French or Spanish > French.",
-    "block8": "bilateral interpreting: this is used during a discussion. I speak after the person but interpret in both directions, English <> French or Spanish <> French.",
-    "block9": "I don't (yet) do simultaneous or whispered interpreting.",
-    "title3": "Which service should I choose?",
-    "formula1": {
-      "name": "By the hour",
-      "desc": "For an event between 1 and 3 hours."
-    },
-    "formula2": {
-      "name": "Half day",
-      "desc": "For an event lasting between 3 and 5 hours."
-    },
-    "formula3": {
-      "name": "By the day",
-      "desc": "For an event between 5 and 8 hours*."
-    }
+    "block3": "I propose two types of interpretation:",
+    "block4": "consecutive interpretation: I speak after the speaker. The speaker's speech is fragmented. Interpreting only goes in one direction, English > French or Spanish > French.",
+    "block5": "bilateral interpreting: this is used during a discussion. I speak after the person but interpret in both directions, English <> French or Spanish <> French.",
+    "block6": "I don't (yet) do simultaneous or whispered interpreting."
   },
   "WhoAmIPage": {
     "block1": "After all, what if I gave a little of myself away too? With a passion for languages, cultures and literature, I took a degree in English and Spanish, followed by an international Masters in Health, Art and Culture.",

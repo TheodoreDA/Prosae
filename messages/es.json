@@ -27,33 +27,20 @@
     "block2": "TODAS A menudo pensamos que corregir es corregir novelas, obras de teatro, manuscritos o artículos.",
     "block3": "De hecho, se puede corregir cualquier documento que contenga palabras: materiales de comunicación, documentos de empresa, CV, cartas de presentación, etc.",
     "block4": "Póngase en contacto conmigo para hablar de su proyecto."
-    },
-  "InterpretariatPage": {
-    "block1": "Interpreto para usted",
-    "block2": "en francés <-> inglés y",
-    "block3": "en francés <-> ¡en español!",
-    "title1": "¿Necesita un intérprete en Francia o en el extranjero?",
-    "block4": "Estaré encantada de acompañarle en todos sus eventos. Puedo desplazarme a cualquier lugar de Francia y del extranjero, en función de mi disponibilidad. Fuera de Nantes, los gastos de desplazamiento se añadirán al precio de la prestación elegida.",
-    "block5": "¡Llámeme para sus eventos empresariales o personales!",
-    "title2": "¿Qué tipo de interpretaciones son posibles?",
-    "block6": "Propongo dos tipos de interpretación:",
-    "block7": "Interpretación consecutiva: Hablo después del orador. El discurso del orador está fragmentado. La interpretación sólo va en una dirección, inglés > francés o español > francés.",
-    "block8": "Interpretación bilateral: se utiliza durante un debate. Hablo después de la persona pero interpreto en ambas direcciones, inglés <> francés o español <> francés.",
-    "block9": "No hago (todavía) interpretación simultánea ni susurrada.",
-    "title3": "¿Qué servicio elegir?",
-    "formula1": {
-      "name": "A tiempo",
-      "desc": "Para un evento de entre 1 y 3 horas."
-    },
-    "formula2": {
-      "name": "Media jornada",
-      "desc": "Para un evento de entre 3 y 5 horas de duración."
-    },
-    "formula3": {
-      "name": "Por días",
-      "desc": "Para un evento de entre 5 y 8 horas*."
-    }
-  },
+   },
+   "InterpretariatPage": {
+     "block1": "¡Interpreto para usted",
+     "inFrench": "en francés",
+     "englishAnd": "Inglés y",
+     "spanish": "Español!",
+     "title1": "¿Necesita un intérprete en Francia o en el extranjero?",
+     "block2": "Estaré encantada de acompañarle en todos sus eventos. Puedo desplazarme a cualquier lugar de Francia y del extranjero, en función de mi disponibilidad. Fuera de Nantes, los gastos de desplazamiento se añadirán al precio de la prestación elegida.",
+     "title2": "¿Qué tipo de interpretaciones son posibles?",
+     "block3": "Propongo dos tipos de interpretación:",
+     "block4": "Interpretación consecutiva: Hablo después del orador. El discurso del orador está fragmentado. La interpretación sólo va en una dirección, inglés > francés o español > francés.",
+     "block5": "Interpretación bilateral: se utiliza durante un debate. Hablo después de la persona pero interpreto en ambas direcciones, inglés <> francés o español <> francés.",
+     "block6": "No hago (todavía) interpretación simultánea ni susurrada."
+   },
   "WhoAmIPage": {
     "block1": "Después de todo, ¿y si yo también diera un poco de mí? Apasionada de los idiomas, las culturas y la literatura, me licencié en inglés y español, a lo que siguió un máster internacional en Salud, Arte y Cultura.",
     "block2": "Me llamo Jeanne y soy correctora, biógrafa e intérprete.",

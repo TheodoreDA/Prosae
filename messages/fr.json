@@ -30,29 +30,16 @@
   },
   "InterpretariatPage": {
     "block1": "J'interprète pour vous",
-    "block2": "en français <-> anglais et",
-    "block3": "en français <-> espagnol !",
+    "inFrench": "en français",
+    "englishAnd": "anglais et",
+    "spanish": "espagnol !",
     "title1": "Besoin d'une interprète en France ou à l'international ?",
-    "block4": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
-    "block5": "Faites appel à moi pour vos événements professionnels ou personnels !",
+    "block2": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
     "title2": "Quels types d'interprétations sont possibles ?",
-    "block6": "Je propose deux types d'interprétation :",
-    "block7": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
-    "block8": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
-    "block9": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée.",
-    "title3": "Quelle prestation choisir ?",
-    "formula1": {
-      "name": "À l'heure",
-      "desc": "Pour un événement entre 1 et 3 heures."
-    },
-    "formula2": {
-      "name": "À la demi-journée",
-      "desc": "Pour un événement entre 3 et 5 heures."
-    },
-    "formula3": {
-      "name": "À la journée",
-      "desc": "Pour un événement entre 5 et 8 heures*."
-    }
+    "block3": "Je propose deux types d'interprétation :",
+    "block4": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
+    "block5": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
+    "block6": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée."
   },
   "WhoAmIPage": {
     "block1": "Après tout, et si je me livrais un peu moi aussi ? Passionnée des langues, des cultures et de littérature, j'ai suivi une licence d'anglais et d'espagnol puis un master international en Santé, Art et Culture.",

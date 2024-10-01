@@ -27,6 +27,7 @@ const config: Config = {
         'header': '20vh',
         'mini-body': '42rem',
         'body': '51rem',
+        'big-body': '73rem',
         'minibody': '80vh'
       },
       maxHeight: {
@@ -51,6 +52,9 @@ const config: Config = {
       },
       gridTemplateColumns: {
         '16': 'repeat(16, minmax(0, 1fr))'
+      },
+      fontSize: {
+        '2.5xl': '1.65rem',
       }
     },
   },
