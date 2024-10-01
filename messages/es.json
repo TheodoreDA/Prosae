@@ -11,6 +11,22 @@
     "caring": "Bienveillance",
     "reliable": "Confiance"
   },
+  "BiographyPage": {
+    "title1": "No elijas y escríbelo todo.",
+    "block1": "Escribir su historia no es sólo para famosos o para quienes han vivido acontecimientos extraordinarios. Es para los que quieren contar su historia y transmitirla, para los que quieren superar una prueba, para pasar página. Es para sus hijos, su familia o sus amigos, para dejar huella. O simplemente, para los que quieren.",
+    "title2": "Así que ¡escribámoslo juntos!",
+    "title3": "¿Cómo funciona?",
+    "block2": "Tanto si estás listo para dar el paso como si necesitas más información, ponte en contacto conmigo. Concertaremos una reunión inicial sin compromiso. Te explicaré cómo funciona y podrás contarme todo sobre tu proyecto tomando un café o por teléfono.",
+    "block3": "¿Qué pasará después? ¡Elegimos juntos o no! Escribir un libro es un trabajo de equipo. Lo hacemos paso a paso, reuniéndonos una o dos horas cada vez. Antes de la siguiente sesión, escribo lo que me has dado, te lo enseño y ¡tú corriges lo que quieras! Es tu historia, y sigues teniendo el control de cada personaje.",
+    "title4": "¿Cuánto cuesta?",
+    "block4": "El precio de una sesión de una hora incluye 4 horas de escritura, dos viajes de ida y vuelta para sus correcciones y la inserción de fotos si es necesario. Tenga en cuenta que no transcribo directamente sus palabras, sino que las resalto adaptando mi estilo de escritura a su personalidad.",
+    "block5": "A 50 euros la hora, cada sesión cuesta 250 euros. Para una biografía completa se necesitan de 15 a 25 sesiones, frente a las 5 a 15 de un trozo de vida. Si eres tan bueno en matemáticas como mi calculadora, habrás calculado que una media de 10 sesiones cuesta 3.000 euros.",
+    "block6": "Los costes de impresión no están incluidos en esta simulación. Los precios dependerán de varios factores, pero por término medio se puede esperar pagar unos 220 euros por 10 ejemplares.",
+    "title5": "Escribir sobre la doble cultura",
+    "title6": "Escribir la vida con enfermedad",
+    "title7": "Escribe un trozo de tu vida",
+    "title8": "¡No elijas y escríbelo todo!"
+  },
   "CorrectionPage": {
     "block1": "¡Tanto para profesionales como para particulares!",
     "title1": "Qu'est ce que je vérifie ?",
@@ -49,7 +65,6 @@
     "block4": "Continué mi viaje trotamundos hasta Croacia. Acogida por Médicos del Mundo Bélgica, me desarrollé como intérprete médica trabajando con solicitantes de asilo en un país que no conocía, que ni siquiera había estudiado y que, sin embargo, me encantó. Me niego a dejarlo por completo y todavía hoy viajo allí como voluntaria.",
     "block5": "Ocupada con los estudios y la exploración, dejé aparcada durante un tiempo mi pasión por el arte, la música y el escenario. Pero ahora he vuelto a ello y, además de trabajar por cuenta propia, me estoy formando para ser actriz de musicales.",
     "block6": "Mis experiencias como intérprete me han llevado a conocer a personas que han cambiado mi vida y mi visión del mundo. Me han demostrado que todo viaje en la vida merece ser destacado, dejar una huella. Escribir el libro de tu vida me parece una muy buena manera de hacerlo.",
-    "callToAction": "¡Voy a por ello!",
     "mySkills": "Mis competencias",
     "voltaire": "VOLTAIRE",
     "eflc": "EFLC FORMACIÓN",
@@ -88,7 +103,8 @@
     "biography": "Biographie",
     "blog": "Blog",
     "contact": "Póngase en contacto conmigo",
-    "askForAFreeEstimate": "Solicite mi presupuesto gratuito"
+    "askForAFreeEstimate": "Solicite mi presupuesto gratuito",
+    "callToAction": "¡Voy a por ello!"
   },
   "Footer": {
     "quickLinks": "Quick Links",

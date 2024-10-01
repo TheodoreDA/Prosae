@@ -11,6 +11,22 @@
     "caring": "Bienveillance",
     "reliable": "Confiance"
   },
+  "BiographyPage": {
+    "title1": "Et si vous vous offriez le plus beau des cadeaux ?",
+    "block1": "Écrire son histoire, ce n'est pas réservé aux célébrités ou à ceux qui ont vécu des événements extraordinaires. C'est pour ceux qui veulent témoigner et transmettre, pour ceux qui veulent vaincre une épreuve, tourner la page. C'est pour vos enfants, pour votre famille ou vos amis, pour laisser une trace. Ou tout simplement, pour ceux qui en ont envie.",
+    "title2": "Alors écrivons-la ensemble !",
+    "title3": "Comment ça marche ?",
+    "block2": "Que vous soyez prêts à sauter le pas ou que vous ayez besoin de plus d'informations, contactez-moi ! Nous organiserons une première prise de contact, sans engagement. Je vous expliquerai comme ça marche, vous me parlerez de votre projet autour d'un café ou au téléphone.",
+    "block3": "Et ensuite ? On se choisit ensemble ou non ! Écrire un livre c'est un travail d'équipe. Nous avançons pas à pas au rythme de séances d'une heure ou deux heures. Avant la suivante, j'écris ce que vous m'avez confié, je vous montre et vous corrigez tout ce que vous voulez ! C'est votre histoire, vous restez maître de chaque caractère.",
+    "title4": "Combien ça coûte ?",
+    "block4": "Le tarif d'une séance d'une heure inclut 4 heures d'écriture, deux allers-retours pour vos corrections et l'insertion de photos si besoin. Sachez que je ne réalise pas une transcription directe de vos paroles mais je les mets en lumière en adaptant mon style d'écriture à votre personnalité.",
+    "block5": "En comptant 50 euros par heure, chaque séance coûte 250 euros. Pour une biographie complète, 15 à 25 séances sont nécessaires contre 5 à 15 pour une tranche de vie. Si vous êtes aussi forts en maths que ma calculatrice, vous aurez compris que pour une moyenne de 10 séances, il faut compter 3 000 euros.",
+    "block6": "Les frais d'impression ne sont pas compris dans cette simulation. Les tarifs dépendront d'un bon nombre de facteurs, mais en moyenne, vous pouvez compter environ 220 € pour 10 exemplaires.",
+    "title5": "Écrire sa double culture",
+    "title6": "Écrire la vie avec la maladie",
+    "title7": "Écrire une tranche de sa vie",
+    "title8": "Ne pas choisir et tout écrire !"
+  },
   "CorrectionPage": {
     "block1": "Autant pour les professionnels que pour les particuliers !",
     "title1": "Qu'est ce que je vérifie ?",
@@ -49,7 +65,6 @@
     "block4": "J'ai continué mon périple de globe trotteuse jusqu'en Croatie. Accueillie par Médecins du Monde Belgique, je me suis épanouie en tant qu'interprète médicale auprès des demandeurs d'asile dans ce pays que je ne connaissais pas, que je n'avais même jamais étudié et par lequel je me suis laissé charmer. Je refuse de m'en séparer complètement et j'y voyage encore aujourd'hui comme bénévole !",
     "block5": "Prise par les études et l'exploration, j'ai un temps mis de côté ma passion pour l'art, la musique et la scène. Mais aujourd'hui j'y reviens, et en parallèle de mon auto-entreprise je suis aussi en formation de comédie musicale.",
     "block6": "Mes expériences comme interprète m'ont amenée à faire des rencontres qui ont changé ma vie, ma vision du monde. Elles m'ont prouvé que chaque parcours de vie mérite d'être mis en avant, de laisser une trace. Écrire le livre de sa vie me paraît être une très bonne manière de le faire !",
-    "callToAction": "Je me lance !",
     "mySkills": "Mes compétences",
     "voltaire": "VOLTAIRE",
     "eflc": "FORMATION EFLC",
@@ -88,7 +103,8 @@
     "biography": "Biographie",
     "blog": "Blog",
     "contact": "Me contacter",
-    "askForAFreeEstimate": "Je demande mon devis gratuit !"
+    "askForAFreeEstimate": "Je demande mon devis gratuit !",
+    "callToAction": "Je me lance !"
   },
   "Footer": {
     "quickLinks": "Quick Links",
