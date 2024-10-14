@@ -37,10 +37,12 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
 
   return (
     <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
-      <body className={clsx(fontBelleza.className, 'max-w-extra mx-auto')}>
+      <body className={clsx(fontBelleza.className, 'text-2.5xl flex flex-col items-center')}>
         <Header />
         <BannerUnderDevelopment />
-        {children}
+        <div className='max-w-extra mx-auto'>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

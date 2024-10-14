@@ -6,10 +6,13 @@
     "why": "POURQUOI",
     "doYouNeed": "AVEZ-VOUS BESOIN",
     "myServices": "DE MES SERVICES ?",
-    "importantForMe": "CE QUI EST IMPORTANT POUR MOI",
+    "whatIs": "CE QUI EST",
+    "important": "IMPORTANT",
+    "ForMe": "POUR MOI",
     "privacy": "Confidentialité",
     "caring": "Bienveillance",
-    "reliable": "Confiance"
+    "reliable": "Confiance",
+    "toReadMe": "Pour me lire, c'est par ici !"
   },
   "BiographyPage": {
     "title1": "Et si vous vous offriez le plus beau des cadeaux ?",
@@ -46,15 +49,14 @@
   },
   "InterpretariatPage": {
     "block1": "J'interprète pour vous",
-    "inFrench": "en français",
-    "englishAnd": "anglais et",
-    "spanish": "espagnol !",
+    "frenchEnglish": "en français ↔ anglais et",
+    "frenchSpanish": "en français ↔ espagnol !",
     "title1": "Besoin d'une interprète en France ou à l'international ?",
     "block2": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
     "title2": "Quels types d'interprétations sont possibles ?",
     "block3": "Je propose deux types d'interprétation :",
-    "block4": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
-    "block5": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
+    "block4": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais → français ou espagnol → français.",
+    "block5": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais ↔ français ou espagnol ↔ français.",
     "block6": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée."
   },
   "WhoAmIPage": {
@@ -104,7 +106,8 @@
     "blog": "Blog",
     "contact": "Me contacter",
     "askForAFreeEstimate": "Je demande mon devis gratuit !",
-    "callToAction": "Je me lance !"
+    "callToAction": "Je me lance !",
+    "myBlog": "MON BLOG"
   },
   "Footer": {
     "quickLinks": "Quick Links",

@@ -7,16 +7,16 @@ export default function ContactPage() {
   const tForm = useTranslations('Form');
 
   return (
-    <div className='flex flex-col min-h-body mb-10 px-52'>
+    <div>
       {/* First block */}
-      <div className='flex flex-row min-h-body space-x-28'>
-        <div className='flex flex-col w-3/5'>
-          <div className='text-4xl font-medium mt-10'>{t("title1")}</div>
-          <div className='text-2xl font-light mt-8'>{t("block1")}</div>
-          <div className="flex justify-center mt-32">
+      <div className='flex flex-row min-h-mini-body pt-20 space-x-28'>
+        <div className='flex flex-col w-1/2 text-justify'>
+          <div className='text-4xl mt-10'>{t("title1")}</div>
+          <div className='leading-relaxed mt-8'>{t("block1")}</div>
+          <div className="flex justify-end mt-24">
             <NavigationLink
               href={'/contact'}
-              className="px-10 py-3 rounded-full text-2xl text-white bg-tertiary"
+              className="px-10 py-3 rounded-full text-2xl text-white bg-secondary"
             >
               {t('askYourFreeEstimate')}
             </NavigationLink>

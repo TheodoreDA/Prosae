@@ -37,11 +37,11 @@ export default function CorrectionPage() {
           </div>
         </div>
         
-        <div className='w-1/2 bg-primary px-12 py-14 text-justify'>
+        <div className='flex flex-col justify-center w-1/2 bg-primary px-12 text-justify'>
           <div className='text-5xl'>{t('title2')}</div>
-          <div className='text-3xl leading-snug pt-16'>{t('block2')}</div>
-          <div className='text-3xl leading-snug pt-10'>{t('block3')}</div>
-          <div className='text-3xl leading-snug pt-10'>{t('block4')}</div>
+          <div className='leading-snug pt-16'>{t('block2')}</div>
+          <div className='leading-snug pt-10'>{t('block3')}</div>
+          <div className='text-3.5xl leading-snug pt-10'>{t('block4')}</div>
         </div>
       </div>
 

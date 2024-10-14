@@ -46,15 +46,14 @@
    },
    "InterpretariatPage": {
      "block1": "¡Interpreto para usted",
-     "inFrench": "en francés",
-     "englishAnd": "Inglés y",
-     "spanish": "Español!",
+     "frenchEnglish": "en francés ↔ Inglés y",
+     "frenchSpanish": "en francés ↔ Español!", 
      "title1": "¿Necesita un intérprete en Francia o en el extranjero?",
      "block2": "Estaré encantada de acompañarle en todos sus eventos. Puedo desplazarme a cualquier lugar de Francia y del extranjero, en función de mi disponibilidad. Fuera de Nantes, los gastos de desplazamiento se añadirán al precio de la prestación elegida.",
      "title2": "¿Qué tipo de interpretaciones son posibles?",
      "block3": "Propongo dos tipos de interpretación:",
-     "block4": "Interpretación consecutiva: Hablo después del orador. El discurso del orador está fragmentado. La interpretación sólo va en una dirección, inglés > francés o español > francés.",
-     "block5": "Interpretación bilateral: se utiliza durante un debate. Hablo después de la persona pero interpreto en ambas direcciones, inglés <> francés o español <> francés.",
+     "block4": "Interpretación consecutiva: Hablo después del orador. El discurso del orador está fragmentado. La interpretación sólo va en una dirección, inglés → francés o español → francés.",
+     "block5": "Interpretación bilateral: se utiliza durante un debate. Hablo después de la persona pero interpreto en ambas direcciones, inglés ↔ francés o español ↔ francés.",
      "block6": "No hago (todavía) interpretación simultánea ni susurrada."
    },
   "WhoAmIPage": {
@@ -104,7 +103,8 @@
     "blog": "Blog",
     "contact": "Póngase en contacto conmigo",
     "askForAFreeEstimate": "Solicite mi presupuesto gratuito",
-    "callToAction": "¡Voy a por ello!"
+    "callToAction": "¡Voy a por ello!",
+    "myBlog": "MI BLOG"
   },
   "Footer": {
     "quickLinks": "Quick Links",

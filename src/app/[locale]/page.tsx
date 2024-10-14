@@ -1,3 +1,4 @@
+import AnimatedNavigationLink from '@/components/AnimatedNavigationLink';
 import NavigationLink from '@/components/NavigationLink';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
@@ -30,28 +31,21 @@ export default function IndexPage({ params: { locale } }: Props) {
             <div>{t('doYouNeed')}</div>
             <div>{t('myServices')}</div>
           </div>
+
           {/* Buttons */}
-          <div className="flex flex-col items-center pt-10 text-secondary">
-            <NavigationLink
-              href={'/correction'}
-              className="content-center text-center w-52 h-16 border-b-2 border-secondary text-2xl font-light hover:h-10 hover:my-3"
-            >
+          <div className="flex flex-col items-center space-y-5 text-secondary pt-10">
+            <AnimatedNavigationLink href={'/correction'}>
               {tNav('correction')}
-            </NavigationLink>
-            <NavigationLink
-              href={'/biography'}
-              className="content-center text-center w-52 h-16 border-b-2 border-secondary text-2xl font-light hover:h-10 hover:my-3"
-            >
+            </AnimatedNavigationLink>
+            <AnimatedNavigationLink href={'/biography'}>
               {tNav('biography')}
-            </NavigationLink>
-            <NavigationLink
-              href={'/interpretariat'}
-              className="content-center text-center w-52 h-16 border-b-2 border-secondary text-2xl font-light hover:h-10 hover:my-3"
-            >
+            </AnimatedNavigationLink>
+            <AnimatedNavigationLink href={'/interpretariat'}>
               {tNav('interpretariat')}
-            </NavigationLink>
+            </AnimatedNavigationLink>
           </div>
         </div>
+
         {/* Image */}
         <div className="w-[450px] h-[675px] relative">
           <Image src={'/home/1.JPG'} style={imageStyle} fill alt="Image one"></Image>
@@ -59,25 +53,26 @@ export default function IndexPage({ params: { locale } }: Props) {
       </div>
 
       {/* Second block */}
-      <div className="flex justify-center items-center bg-primary min-h-body mt-20">
-        <div className='grid grid-cols-2 grid-rows-3 gap-x-6 gap-y-12 uppercase text-3xl text-secondary'>
-          <div className='text-right self-center'>Confidentialité</div>
-          <div className='text-7xl text-black'>CE QUI EST</div>
-          <div className='text-right self-center'>Bienveillance</div>
-          <div className='text-7xl text-black'>IMPORTANT</div>
-          <div className='text-right self-center'>Confiance</div>
-          <div className='text-7xl text-black'>POUR MOI</div>
+      <div className="flex justify-center items-center min-h-body mt-20">
+        <div className='bg-primary absolute min-h-body w-full max-w-std-screen' />
+        <div className='grid grid-cols-2 grid-rows-3 gap-x-6 gap-y-12 uppercase text-3xl text-secondary z-10'>
+          <div className='text-right self-center'>{t("privacy")}</div>
+          <div className='text-7xl text-black'>{t("whatIs")}</div>
+          <div className='text-right self-center'>{t("caring")}</div>
+          <div className='text-7xl text-black'>{t("important")}</div>
+          <div className='text-right self-center'>{t("reliable")}</div>
+          <div className='text-7xl text-black'>{t("ForMe")}</div>
         </div>
       </div>
 
       {/* Third block */}
       <div className='flex justify-center items-center pt-32 pb-52'>
-        <div className='text-4xl pr-20'>Pour me lire, c&apos;est par ici !</div>
+        <div className='text-4xl pr-20'>{t("toReadMe")}</div>
         <NavigationLink
               href={'/'}
-              className="content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-2xl font-light hover:h-10 hover:my-3"
+              className="content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-2xl font-light hover:h-10 hover:my-3 hover:w-44 hover:mx-4"
             >
-              MON BLOG
+              {tNav("myBlog")}
             </NavigationLink>
       </div>
     </div>

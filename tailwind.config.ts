@@ -20,11 +20,13 @@ const config: Config = {
         'oval': '50%',
       },
       height: {
-        'body': '90vh',
-        'footer': '40vh'
+        'header': '6rem',
+        'footer': '21rem'
+      },
+      width: {
+        'std-screen': '120rem'
       },
       minHeight: {
-        'header': '20vh',
         'mini-body': '42rem',
         'body': '51rem',
         'big-body': '73rem',
@@ -42,7 +44,8 @@ const config: Config = {
       maxWidth: {
         '1/2': '50%',
         '2/5': '40%',
-        'extra': '85rem'
+        'extra': '85rem',
+        'std-screen': '120rem'
       },
       borderWidth: {
         '1': '1px'
@@ -55,6 +58,7 @@ const config: Config = {
       },
       fontSize: {
         '2.5xl': '1.65rem',
+        '3.5xl': '2.07rem',
       }
     },
   },
