@@ -1,4 +1,5 @@
 import AnimatedNavigationLink from '@/components/AnimatedNavigationLink';
+import BlogArticlesGrid from '@/components/BlogArticlesGrid';
 import NavigationLink from '@/components/NavigationLink';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
@@ -66,14 +67,17 @@ export default function IndexPage({ params: { locale } }: Props) {
       </div>
 
       {/* Third block */}
-      <div className='flex justify-center items-center pt-32 pb-52'>
-        <div className='text-4xl pr-20'>{t("toReadMe")}</div>
-        <NavigationLink
-              href={'/'}
-              className="content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-2xl font-light hover:h-10 hover:my-3 hover:w-44 hover:mx-4"
-            >
-              {tNav("myBlog")}
-            </NavigationLink>
+      <div className='flex flex-col justify-center items-center space-y-32 pt-32 pb-52'>
+        <div className='flex items-center'>
+          <div className='text-4xl pr-20'>{t("toReadMe")}</div>
+          <NavigationLink
+            href={'/'}
+            className="content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-2xl font-light hover:h-10 hover:my-3 hover:w-44 hover:mx-4"
+          >
+            {tNav("myBlog")}
+          </NavigationLink>
+        </div>
+        <BlogArticlesGrid />
       </div>
     </div>
   );
