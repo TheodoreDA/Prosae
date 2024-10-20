@@ -39,7 +39,7 @@ export default function CorrectionPage() {
           <div className='mt-10'>{t('block6')}</div>
         </div>
         <div className="w-[35%] h-[41rem] relative mt-10">
-          <Image src={'/biography/3.jpg'} fill style={{objectFit: "cover", objectPosition: "center"}} alt="Image two" />
+          <Image src={'/biography/2.jpg'} fill style={{objectFit: "cover", objectPosition: "center"}} alt="Image two" />
         </div>
       </div>
 
