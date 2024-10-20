@@ -7,9 +7,9 @@ export default function Header(): JSX.Element {
 
   return (
     <header className="sticky top-0 z-30 flex justify-center h-header max-w-std-screen w-full bg-white py-5">
-      <div className='flex flex-row max-w-extra justify-center'>
-        <ImgNavigationLink className='z-30 ml-10 mr-14 pb-5 w-40 h-10 relative self-center' src='/logos/logo-prosae-black.png' alt='prosae-logo' />
-        <div className=" z-30 pl-14 pr-14 mr-10 flex flex-row space-x-10 items-center text-xl pb-5 border-black border-b-1">
+      <div className='flex justify-between w-extra'>
+        <ImgNavigationLink className='z-30 mr-14 w-40 h-10 relative self-center' src='/logos/logo-prosae-black.png' alt='prosae-logo' />
+        <div className=" z-30 pl-14 pr-14 flex flex-row space-x-10 items-center text-xl pb-5 border-black border-b-1">
           <NavigationLink href="/who_am_i">{t('whoAmI')}</NavigationLink>
           <NavigationLink href="/biography">{t('biography')}</NavigationLink>
           <NavigationLink href="/correction">{t('correction')}</NavigationLink>

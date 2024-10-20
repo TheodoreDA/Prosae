@@ -24,6 +24,7 @@ const config: Config = {
         'footer': '21rem'
       },
       width: {
+        'extra': '85rem',
         'std-screen': '120rem'
       },
       minHeight: {
