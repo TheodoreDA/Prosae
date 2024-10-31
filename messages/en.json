@@ -80,7 +80,9 @@
     "namePlaceholder": "First and last name",
     "emailPlaceholder": "E-mail address",
     "messagePlaceholder": "Message",
-    "sendAction": "Send"
+    "sendAction": "Send",
+    "messageSent": "",
+    "messageCouldntSend": "Oops. Unable to send your message. Please send it directly to jeanne.sabiron@prosae.net"
   },
   "Error": {
     "title": "Something went wrong!",

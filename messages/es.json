@@ -80,7 +80,9 @@
     "namePlaceholder": "Nombre y apellidos",
     "emailPlaceholder": "Correo electrónico",
     "messagePlaceholder": "Mensaje",
-    "sendAction": "Enviar"
+    "sendAction": "Enviar",
+    "messageSent": "¡El mensaje ha sido enviado!",
+    "messageCouldntSend": "Vaya. No se ha podido enviar su mensaje. Envíelo directamente a jeanne.sabiron@prosae.net"
   },
   "Error": {
     "title": "¡Algo salió mal!",
