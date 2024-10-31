@@ -1,15 +1,17 @@
+import Contact from '@/components/Contact';
 import NavigationLink from '@/components/NavigationLink';
-import { useTranslations } from 'next-intl';
+import { NextIntlClientProvider, useMessages, useTranslations } from 'next-intl';
+import pick from 'lodash/pick';
 import Image from 'next/image';
 
 export default function ContactPage() {
   const t = useTranslations('ContactPage');
-  const tForm = useTranslations('Form');
+  const messages = useMessages();
 
   return (
     <div>
       {/* First block */}
-      <div className='flex flex-row min-h-mini-body pt-20 space-x-28'>
+      <div className='flex flex-row min-h-mini-body pt-20'>
         <div className='flex flex-col w-1/2 text-justify'>
           <div className='text-4xl mt-10'>{t("title1")}</div>
           <div className='leading-relaxed mt-8'>{t("block1")}</div>
@@ -28,48 +30,12 @@ export default function ContactPage() {
       </div>
 
       {/* Second block */}
-      <div className='flex flex-col min-h-body items-center'>
+      <div className='flex flex-col min-h-body items-center pb-32'>
         <div className='text-5xl'>{t("title2")}</div>
         <div className='mt-10 text-2xl font-light'>{t("block2")}</div>
-        <form className='flex flex-col space-y-10 w-full mt-20'>
-          <div className='flex flex-row space-x-10'>  
-            <input
-              id="name"
-              className='bg-lighGray w-1/2 p-5 rounded-sm'
-              placeholder={tForm("namePlaceholder")}
-              name='name'
-              type='text'
-              autoComplete='name'
-              required
-            />
-            <input
-              id="email"
-              className='bg-lighGray w-1/2 p-5 rounded-sm'
-              placeholder={tForm("emailPlaceholder")}
-              name='email'
-              type='text'
-              autoComplete='email'
-              required
-            />
-          </div>
-          <textarea
-            id="message"
-            className='bg-lighGray p-5 rounded-sm'
-            placeholder={tForm("messagePlaceholder")}
-            name='message'
-            autoComplete='message'
-            rows={9}
-            required
-          />
-          <div className='flex flex-col items-center'>
-            <button 
-              type="submit" 
-              className="px-16 py-5 border-2 border-black text-xl"
-            >
-            {tForm("sendAction")}
-            </button>
-          </div>
-        </form>
+        <NextIntlClientProvider messages={pick(messages, 'Form')}>
+          <Contact />
+        </NextIntlClientProvider>
       </div>
     </div>
   );
