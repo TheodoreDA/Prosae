@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Description
 
-## Getting Started
+This repository contains the source code for the Prosae website built using NextJS. The website is designed to showcase the literary services offered by Jeanne SABIRON in the fields of correction, biography, and interpretation (French, English and Spanish).
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Multilingual**: The website supports French, English and Spanish languages.
+- **Service Pages**: Dedicated pages for each literary service offered.
+- **Contact Form**: A user-friendly contact form for potential clients to get in touch.
+- **SEO Optimized**: The website is optimized for search engines to improve visibility and attract more organic traffic.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- NextJS
+- next-intl
+- React
+- HTML5
+- Tailwindcss
+- JavaScript (ES6+)
+- nodemailer
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/TheodoreDA/Prosae.git`
+2. Navigate to the project directory: `cd Prosae`
+3. Install the dependencies: `npm install`
+4. Create a .env file following the .env.example (for nodemailer for the contact page)
+5. Start the development server: `npm run dev`
+6. Open your browser and visit: `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Special thanks to the NextJS team for providing an excellent framework for building modern web applications.

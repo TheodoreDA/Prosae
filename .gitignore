@@ -2,6 +2,7 @@
 
 # Env files
 .env*
+!.env.example
 
 # certificates
 https_cert
