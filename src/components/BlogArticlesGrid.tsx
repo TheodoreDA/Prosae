@@ -40,16 +40,16 @@ interface Article {
 const articles: Article[] = [
   {
     id: 1,
-    title: "En entretien biographique...",
-    description: "Une expérience immersive digne des plus grands films",
-    image: "/blog/entretien_bibliographie.webp",
-    link: "https://prosae.odoo.com/blog/biographie-4/en-entretien-biographique-3",
+    title: "Inktober",
+    description: "",
+    image: "/blog/Inktober.webp",
+    link: "https://prosae.odoo.com/blog/actualite-5/inktober-4",
   },
   {
     id: 2,
-    title: "Un festival tout en odeur !",
-    description: "La fête de la bouse de Triaize",
-    image: "/blog/festival_bouse.webp",
-    link: "https://prosae.odoo.com/blog/anecdotes-2/un-festival-tout-en-odeur-1",
+    title: "Retour de lecture : La Passe-Miroir",
+    description: "Un livre dont on ne se lasse pas",
+    image: "/blog/lecture_Passe-Miroir.webp",
+    link: "https://prosae.odoo.com/blog/retour-de-lecture-3/retour-de-lecture-la-passe-miroir-2",
   },
 ];

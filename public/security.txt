@@ -1,0 +1,3 @@
+Contact: mailto:security@prosae.net
+Expires: 2025-11-03T07:00:00.000Z
+Preferred-Languages: en, fr

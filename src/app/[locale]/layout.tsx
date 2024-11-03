@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 import { Belleza } from 'next/font/google';
+import { Metadata } from 'next';
 
 const fontBelleza = Belleza({
   subsets: ["latin"],
@@ -16,12 +17,14 @@ type Props = {
   params: { locale: string };
 };
 
-export async function generateMetadata({params: { locale }}: Props) {
+export async function generateMetadata({params: { locale }}: Props): Promise<Metadata> {
   const t = await getTranslations({locale, namespace: 'Metadata'});
  
   return {
     title: "Prosae",
-    description: t("description")
+    description: t("description"),
+    keywords: ["haha", "hoho", "hihi"],
+    authors: [{ name: "Jeanne Sabiron", url: "https://prosae.net" }],
   };
 }
 
@@ -39,7 +42,7 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
     <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
       <body className={clsx(fontBelleza.className, 'text-2.5xl flex flex-col items-center')}>
         <Header />
-        <BannerUnderDevelopment />
+        {/* <BannerUnderDevelopment /> */}
         <div className='max-w-extra mx-auto'>
           {children}
         </div>

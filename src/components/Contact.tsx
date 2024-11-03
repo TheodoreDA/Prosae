@@ -66,7 +66,7 @@ export default function Contact(): JSX.Element {
             <button 
               type="submit"
               className={clsx(
-                'px-16 py-5 mb-5 w-52 border-2 text-xl',
+                'px-16 py-5 mb-5 w-52 border-2 text-2xl transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center',
                 isLoading && 'border-gray-400 cursor-progress',
                 !isLoading && 'border-black cursor-pointer'
               )}

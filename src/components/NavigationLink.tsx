@@ -1,27 +1,24 @@
 'use client';
 
 import clsx from 'clsx';
-import { useSelectedLayoutSegment } from 'next/navigation';
 import { ComponentProps } from 'react';
 import type { AppPathnames } from '@/config';
 import { Link } from '@/navigation';
 
 export default function NavigationLink<Pathname extends AppPathnames>({
   href,
+  className,
+  shouldntShrink = false,
   ...rest
-}: ComponentProps<typeof Link<Pathname>>) {
-  const selectedLayoutSegment = useSelectedLayoutSegment();
-  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
-  const isActive = pathname === href;
+}: ComponentProps<typeof Link<Pathname>> & { shouldntShrink?: boolean }) {
 
   return (
     <Link
-      aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        'inline-block transition-colors uppercase text-nowrap',
-        isActive
-          ? 'text-secondary font-extrabold'
-          : 'text-black hover:font-extrabold'
+        className + ' inline-block',
+        shouldntShrink
+          ? ''
+          : 'transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center'
       )}
       href={href}
       {...rest}

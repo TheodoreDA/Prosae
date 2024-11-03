@@ -22,7 +22,7 @@ export default function Footer(): JSX.Element {
                 <NavigationLink className="w-fit" href={'/'}>{tNav('home')}</NavigationLink>
                 <NavigationLink className="w-fit" href={'/interpretariat'}>{tNav('interpretariat')}</NavigationLink>
                 <NavigationLink className="w-fit" href={'/who_am_i'}>{tNav('whoAmI')}</NavigationLink>
-                <a className="w-fit" href={'/blog'}>{tNav('blog')}</a>
+                <a className='w-fit inline-block transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center' href="https://prosae.odoo.com">{tNav('blog')}</a>
                 <NavigationLink className="w-fit" href={'/biography'}>{tNav('biography')}</NavigationLink>
                 <NavigationLink className="w-fit" href={'/contact'}>{tNav('contact')}</NavigationLink>
                 <NavigationLink className="w-fit" href={'/correction'}>{tNav('correction')}</NavigationLink>
