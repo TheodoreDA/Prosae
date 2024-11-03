@@ -4,73 +4,73 @@
   },
   "HomePage": {
     "why": "POURQUOI",
-    "wouldYou": "AURIEZ-VOUS",
-    "needMy": "BESOIN DE MES",
-    "services": "SERVICES ?",
-    "howDoIWork": "COMMENT JE TRAVAILLE",
-    "planning": "Planning",
-    "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "building": "Building",
-    "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "consultation": "Consultation",
-    "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
+    "doYouNeed": "AVEZ-VOUS BESOIN",
+    "myServices": "DE MES SERVICES ?",
+    "whatIs": "CE QUI EST",
+    "important": "IMPORTANT",
+    "ForMe": "POUR MOI",
+    "privacy": "Confidentialité",
+    "caring": "Bienveillance",
+    "reliable": "Confiance",
+    "toReadMe": "Pour me lire, c'est par ici !"
+  },
+  "BiographyPage": {
+    "title1": "Et si vous vous offriez le plus beau des cadeaux ?",
+    "block1": "Écrire son histoire, ce n'est pas réservé aux célébrités ou à ceux qui ont vécu des événements extraordinaires. C'est pour ceux qui veulent témoigner et transmettre, pour ceux qui veulent vaincre une épreuve, tourner la page. C'est pour vos enfants, pour votre famille ou vos amis, pour laisser une trace. Ou tout simplement, pour ceux qui en ont envie.",
+    "title2": "Alors écrivons-la ensemble !",
+    "title3": "Comment ça marche ?",
+    "block2": "Que vous soyez prêts à sauter le pas ou que vous ayez besoin de plus d'informations, contactez-moi ! Nous organiserons une première prise de contact, sans engagement. Je vous expliquerai comme ça marche, vous me parlerez de votre projet autour d'un café ou au téléphone.",
+    "block3": "Et ensuite ? On se choisit ensemble ou non ! Écrire un livre c'est un travail d'équipe. Nous avançons pas à pas au rythme de séances d'une heure ou deux heures. Avant la suivante, j'écris ce que vous m'avez confié, je vous montre et vous corrigez tout ce que vous voulez ! C'est votre histoire, vous restez maître de chaque caractère.",
+    "title4": "Combien ça coûte ?",
+    "block4": "Le tarif d'une séance d'une heure inclut 4 heures d'écriture, deux allers-retours pour vos corrections et l'insertion de photos si besoin. Sachez que je ne réalise pas une transcription directe de vos paroles mais je les mets en lumière en adaptant mon style d'écriture à votre personnalité.",
+    "block5": "En comptant 50 euros par heure, chaque séance coûte 250 euros. Pour une biographie complète, 15 à 25 séances sont nécessaires contre 5 à 15 pour une tranche de vie. Si vous êtes aussi forts en maths que ma calculatrice, vous aurez compris que pour une moyenne de 10 séances, il faut compter 3 000 euros.",
+    "block6": "Les frais d'impression ne sont pas compris dans cette simulation. Les tarifs dépendront d'un bon nombre de facteurs, mais en moyenne, vous pouvez compter environ 220 € pour 10 exemplaires.",
+    "title5": "Écrire sa double culture",
+    "title6": "Écrire la vie avec la maladie",
+    "title7": "Écrire une tranche de sa vie",
+    "title8": "Ne pas choisir et tout écrire !"
   },
   "CorrectionPage": {
-    "block1": "Autant pour les professionnels que pour les partenaires particuliers et partenaires particulières !",
-    "title1": "Pour quels types de textes ?",
+    "block1": "Autant pour les professionnels que pour les particuliers !",
+    "title1": "Qu'est ce que je vérifie ?",
+    "spelling": "Orthographe",
+    "grammar": "Grammaire",
+    "conjugation": "Conjugaison",
+    "syntax": "Syntaxe",
+    "orthotypography": "Orthotypographie",
+    "harmonisation": "Harmonisation",
+    "internalCoherence": "Cohérence interne au récit, historique et géographique",
+    "pageLayout": "Mise en page",
+    "rewording": "Reformulations si nécessaire dans votre style d'écriture",
+    "title2": "Pour quels types de textes ?",
     "block2": "TOUS ! On pense souvent que la correction est faite pour corriger des romans, des pièces de théâtre, des manuscrits ou des articles.",
     "block3": "En réalité, tout document qui comporte des mots est susceptible d'être corrigé : supports de communication, documents d'entreprise, CV, lettres de motivation, etc.",
-    "block4": "Contactez-moi et discutons de votre projet !",
-    "title2": "Quelle formule choisir ?",
-    "formula1": {
-      "name": "Correction soignée",
-      "desc": "Nécessaire pour tous les textes",
-      "price": "3 € les 1 500 signes."
-    },
-    "formula2": {
-      "name": "Correction rigoureuse",
-      "desc": "La correction professionnelle que méritent vos créations.",
-      "price": "4 € les 1 500 signes."
-    },
-    "formula3": {
-      "name": "Tarif réduit",
-      "desc": "La correction professionnelle accessible à tous* !",
-      "price": "2 € les 1 500 signes."
-    }
+    "block4": "Contactez-moi et discutons de votre projet !"
   },
   "InterpretariatPage": {
     "block1": "J'interprète pour vous",
-    "block2": "en français <-> anglais et",
-    "block3": "en français <-> espagnol !",
+    "frenchEnglish": "en français ↔ anglais et",
+    "frenchSpanish": "en français ↔ espagnol !",
     "title1": "Besoin d'une interprète en France ou à l'international ?",
-    "block4": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
-    "block5": "Faites appel à moi pour vos événements professionnels ou personnels !",
+    "block2": "Je serais ravie de vous accompagner pour tous vos événements ! Je me déplace partout en France et à l'international en fonction de mes disponibilités. En dehors de Nantes, le prix du déplacement sera ajouté au tarif de la prestation choisie.",
     "title2": "Quels types d'interprétations sont possibles ?",
-    "block6": "Je propose deux types d'interprétation :",
-    "block7": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais > français ou espagnol > français.",
-    "block8": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais <> français ou espagnol <> français.",
-    "block9": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée.",
-    "title3": "Quelle prestation choisir ?",
-    "formula1": {
-      "name": "À l'heure",
-      "desc": "Pour un événement entre 1 et 3 heures."
-    },
-    "formula2": {
-      "name": "À la demi-journée",
-      "desc": "Pour un événement entre 3 et 5 heures."
-    },
-    "formula3": {
-      "name": "À la journée",
-      "desc": "Pour un événement entre 5 et 8 heures*."
-    }
+    "block3": "Je propose deux types d'interprétation :",
+    "block4": "l'interprétation consécutive : je parle après l'orateur. Sa prise de parole est donc morcelée. L'interprétation ne va que dans un sens, anglais → français ou espagnol → français.",
+    "block5": "l'interprétation bilatérale : elle se pratique dans une discussion. Je parle après la personne mais j'interprète dans les deux sens, anglais ↔ français ou espagnol ↔ français.",
+    "block6": "Je ne pratique pas (encore) l'interprétation simultanée ou chuchotée."
   },
   "WhoAmIPage": {
-    "block1": "Je m'appelle Jeanne et j'aime les mots, dans toutes les langues d'ailleurs.",
-    "block2": "Après un baccalauréat littéraire et une licence en langues et cultures étrangères en anglais et espagnol, je me suis lancée dans un master international centré autour de la santé, l'art et la culture.",
-    "block3": "J'ai eu l'occasion, pendant mes stages, d'être interprète pour l'association Armadillo en France et au Guatemala, où je suis restée deux mois. J'ai aussi été stagiaire pour Médecins du Monde en tant qu'interprète médicale auprès des demandeurs d'asiles en Croatie. Ces expériences m'ont convaincue que j'étais faite pour ce métier.",
-    "block4": "En parallèle de mon master, je me suis également lancée dans une formation pour devenir correctrice à l'École Française de Lecteur-Correcteur. Ma passion pour les mots et mon travail m'ont permis d'atteindre le niveau expert grâce à un score de 947 / 1 000 au Certificat Voltaire.",
-    "block5": "Cette aventure avec Prosae va me permettre de vous aider en tant qu'interprète et correctrice professionnelle, deux exercices qui me passionnent. J'ai hâte de découvrir vos projets !",
-    "payMePlease": "Payez-moi svp !"
+    "block1": "Après tout, et si je me livrais un peu moi aussi ? Passionnée des langues, des cultures et de littérature, j'ai suivi une licence d'anglais et d'espagnol puis un master international en Santé, Art et Culture.",
+    "block2": "Je m'appelle Jeanne et je suis correctrice, biographe et interprète !",
+    "title1": "Mais encore ?",
+    "block3": "Après deux occasions manquées de partir étudier au Mexique à cause de la pandémie puis du narcotrafic, j'ai finalement réussi à voyager en Amérique latine ! Je suis partie au Guatemala auprès de l'association de théâtre de marionnettes Armadillo, grâce à laquelle j'avais déjà pu être interprète en France. La découverte de ce continent et de ses habitants a été plus que marquante.",
+    "block4": "J'ai continué mon périple de globe trotteuse jusqu'en Croatie. Accueillie par Médecins du Monde Belgique, je me suis épanouie en tant qu'interprète médicale auprès des demandeurs d'asile dans ce pays que je ne connaissais pas, que je n'avais même jamais étudié et par lequel je me suis laissé charmer. Je refuse de m'en séparer complètement et j'y voyage encore aujourd'hui comme bénévole !",
+    "block5": "Prise par les études et l'exploration, j'ai un temps mis de côté ma passion pour l'art, la musique et la scène. Mais aujourd'hui j'y reviens, et en parallèle de mon auto-entreprise je suis aussi en formation de comédie musicale.",
+    "block6": "Mes expériences comme interprète m'ont amenée à faire des rencontres qui ont changé ma vie, ma vision du monde. Elles m'ont prouvé que chaque parcours de vie mérite d'être mis en avant, de laisser une trace. Écrire le livre de sa vie me paraît être une très bonne manière de le faire !",
+    "mySkills": "Mes formations",
+    "voltaire": "VOLTAIRE",
+    "eflc": "FORMATION EFLC",
+    "biography": "FORMATION DEVENIR BIOGRAPHE"
   },
   "ContactPage": {
     "title1": "Comment prendre contact ?",
@@ -83,7 +83,9 @@
     "namePlaceholder": "Nom et Prénom",
     "emailPlaceholder": "Adresse mail",
     "messagePlaceholder": "Message",
-    "sendAction": "Envoyer"
+    "sendAction": "Envoyer",
+    "messageSent": "The message has been sent!",
+    "messageCouldntSend": "Oups. Impossible d'envoyer votre message. Veuillez l'envoyer directement à jeanne.sabiron@prosae.net"
   },
   "Error": {
     "title": "Something went wrong!",
@@ -102,8 +104,12 @@
     "whoAmI": "Qui suis-je ?",
     "correction": "Correction",
     "interpretariat": "Interprétariat",
+    "biography": "Biographie",
+    "blog": "Blog",
     "contact": "Me contacter",
-    "askForAFreeEstimate": "Je demande mon devis gratuit !"
+    "askForAFreeEstimate": "Je demande mon devis gratuit !",
+    "callToAction": "Je me lance !",
+    "myBlog": "MON BLOG"
   },
   "Footer": {
     "quickLinks": "Quick Links",

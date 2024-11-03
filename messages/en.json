@@ -4,73 +4,70 @@
   },
   "HomePage": {
     "why": "WHY",
-    "wouldYou": "WOULD YOU",
-    "needMy": "NEED MY",
-    "services": "SERVICES?",
-    "howDoIWork": "HOW DO I WORK",
-    "planning": "Planning",
-    "planningDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "building": "Building",
-    "buildingDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit...",
-    "consultation": "Support",
-    "consultationDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit..."
+    "doYouNeed": "DO YOU NEED",
+    "myServices": "MY SERVICES?",
+    "importantForMe": "WHAT MATTERS FOR ME",
+    "privacy": "Privacy",
+    "caring": "Caring",
+    "reliable": "Reliable"
+  },
+  "BiographyPage": {
+    "title1": "Why not treat yourself to the ultimate gift?",
+    "block1": "Writing your story is not just for celebrities or those who have lived through extraordinary events. It's for those who want to tell their story and pass it on, for those who want to overcome an ordeal, to turn the page. It's for your children, your family or your friends, to leave a trace. Or quite simply, for those who want to.",
+    "title2": "So let's write it together!",
+    "title3": "How does it work?",
+    "block2": "Whether you're ready to take the plunge or need more information, contact me! We'll arrange a no-obligation initial meeting. I'll explain how it works, and you can tell me all about your project over a coffee or on the phone.",
+    "block3": "What happens next? We choose together or not! Writing a book is a team effort. We take it one step at a time, meeting for one or two hours at a time. Before the next session, I write what you've given me, I show it to you and you correct anything you want! It's your story, and you remain in control of every character.",
+    "title4": "How much does it cost?",
+    "block4": "The price of a one-hour session includes 4 hours of writing, two return trips for your corrections and the insertion of photos if required. Please note that I don't transcribe your words directly, but I highlight them by adapting my writing style to your personality.",
+    "block5": "At 50 euros per hour, each session costs 250 euros. For a complete biography, 15 to 25 sessions are needed, compared with 5 to 15 for a slice of life. If you're as good at maths as my calculator, you'll have worked out that an average of 10 sessions costs €3,000.",
+    "block6": "Printing costs are not included in this simulation. Prices will depend on a number of factors, but on average you can expect to pay around €220 for 10 copies.",
+    "title5": "Writing about dual culture",
+    "title6": "Writing life with illness",
+    "title7": "Write a slice of your life",
+    "title8": "Don't choose and write it all down!"
   },
   "CorrectionPage": {
-    "block1": "For professionals as well as individual and special partners!",
-    "title1": "For what types of texts?",
+    "block1": "For professionals and private individuals alike!",
+    "title1": "Qu'est ce que je vérifie ?",
+    "spelling": "Spelling",
+    "grammar": "Grammar",
+    "conjugation": "Conjugation",
+    "syntax": "Syntax",
+    "orthotypography": "Orthotypography",
+    "harmonisation": "Harmonisation",
+    "internalCoherence": "Internal coherence of the narrative, historical and geographical",
+    "pageLayout": "Page layout",
+    "rewording": "Rewording if necessary in your writing style",
+    "title2": "For what types of texts?",
     "block2": "ALL OF THEM! We often think that proofreading is for correcting novels, plays, manuscripts or articles.",
     "block3": "In fact, any document containing words can be corrected: communication materials, company documents, CVs, covering letters, etc.",
-    "block4": "Contact me to discuss your project!",
-    "title2": "Which package to choose?",
-    "formula1": {
-      "name": "Careful correction",
-      "desc": "Required for all texts",
-      "price": "3 per 1,500 characters."
-    },
-    "formula2": {
-      "name": "Rigorous correction",
-      "desc": "The professional touch your creations deserve.",
-      "price": "4 per 1,500 characters."
-    },
-    "formula3": {
-      "name": "Reduced rate",
-      "desc": "Professional proofreading available to all*!",
-      "price": "2 per 1,500 characters."
-    }
+    "block4": "Contact me to discuss your project!"
   },
   "InterpretariatPage": {
     "block1": "I interpret for you",
-    "block2": "in French <-> English and",
-    "block3": "in French <-> Spanish!",
+    "frenchEnglish": "in French ↔ English and",
+    "frenchSpanish": "in French ↔ Spanish!",
     "title1": "Need an interpreter in France or abroad?",
-    "block4": "I'd be delighted to accompany you for all your events! I can travel anywhere in France and abroad, depending on my availability. Outside Nantes, the cost of travel will be added to the price of the service chosen.",
-    "block5": "Call on me for your business or personal events!",
+    "block2": "I'd be delighted to accompany you for all your events! I can travel anywhere in France and abroad, depending on my availability. Outside Nantes, the cost of travel will be added to the price of the service chosen.",
     "title2": "What kinds of interpretations are possible?",
-    "block6": "I propose two types of interpretation:",
-    "block7": "consecutive interpretation: I speak after the speaker. The speaker's speech is fragmented. Interpreting only goes in one direction, English > French or Spanish > French.",
-    "block8": "bilateral interpreting: this is used during a discussion. I speak after the person but interpret in both directions, English <> French or Spanish <> French.",
-    "block9": "I don't (yet) do simultaneous or whispered interpreting.",
-    "title3": "Which service should I choose?",
-    "formula1": {
-      "name": "By the hour",
-      "desc": "For an event between 1 and 3 hours."
-    },
-    "formula2": {
-      "name": "Half day",
-      "desc": "For an event lasting between 3 and 5 hours."
-    },
-    "formula3": {
-      "name": "By the day",
-      "desc": "For an event between 5 and 8 hours*."
-    }
+    "block3": "I propose two types of interpretation:",
+    "block4": "consecutive interpretation: I speak after the speaker. The speaker's speech is fragmented. Interpreting only goes in one direction, English → French or Spanish → French.",
+    "block5": "bilateral interpreting: this is used during a discussion. I speak after the person but interpret in both directions, English ↔ French or Spanish ↔ French.",
+    "block6": "I don't (yet) do simultaneous or whispered interpreting."
   },
   "WhoAmIPage": {
-    "block1": "My name is Jeanne and I love words, in any language for that matter.",
-    "block2": "After a baccalauréat in literature and a degree in foreign languages and cultures in English and Spanish, I embarked on an international master's degree focusing on health, art and culture.",
-    "block3": "During my internships, I had the chance to work as an interpreter for the Armadillo association in France and Guatemala, where I stayed for two months. I was also an intern for Médecins du Monde as a medical interpreter for asylum seekers in Croatia. These experiences convinced me that I was cut out for this job.",
-    "block4": "At the same time as my Master's degree, I also started training to become a proofreader at the École Française de Lecteur-Correcteur. My passion for words and my hard work have enabled me to achieve expert level thanks to a score of 947 / 1,000 in the Voltaire Certificate.",
-    "block5": "This Prosae adventure will allow me to help you as a professional interpreter and proofreader, two things I'm passionate about. I can't wait to see what you come up with!",
-    "payMePlease": "Pay me please!"
+    "block1": "After all, what if I gave a little of myself away too? With a passion for languages, cultures and literature, I took a degree in English and Spanish, followed by an international Masters in Health, Art and Culture.",
+    "block2": "My name is Jeanne and I'm a proofreader, biographer and interpreter!",
+    "title1": "But what else?",
+    "block3": "After two missed opportunities to study in Mexico because of the pandemic and then drug trafficking, I finally managed to travel to Latin America! I went to Guatemala to work with the Armadillo puppet theatre association, which had already enabled me to work as an interpreter in France. The experience of discovering this continent and its people was a real eye-opener.",
+    "block4": "I continued my globe-trotting journey as far as Croatia. Welcomed by Médecins du Monde Belgium, I blossomed as a medical interpreter working with asylum seekers in a country I didn't know, had never even studied and yet was charmed by. I refuse to give it up completely and I still travel there today as a volunteer!",
+    "block5": "Taken up with studies and exploration, I put my passion for art, music and the stage on hold for a while. But now I'm back at it, and alongside my self-employed business I'm also training to be a musical actress.",
+    "block6": "My experiences as an interpreter have led me to meet people who have changed my life and my vision of the world.They have shown me that every journey in life deserves to be highlighted, to leave a mark. Writing the book of your life seems to me to be a very good way of doing that!",
+    "mySkills": "My skills",
+    "voltaire": "VOLTAIRE",
+    "eflc": "EFLC TRAINING",
+    "biography": "DEVENIR BIOGRAPHE TRAINING"
   },
   "ContactPage": {
     "title1": "How do I get in touch?",
@@ -83,7 +80,9 @@
     "namePlaceholder": "First and last name",
     "emailPlaceholder": "E-mail address",
     "messagePlaceholder": "Message",
-    "sendAction": "Send"
+    "sendAction": "Send",
+    "messageSent": "",
+    "messageCouldntSend": "Oops. Unable to send your message. Please send it directly to jeanne.sabiron@prosae.net"
   },
   "Error": {
     "title": "Something went wrong!",
@@ -102,8 +101,12 @@
     "whoAmI": "Who am I?",
     "correction": "Correction",
     "interpretariat": "Interpretation",
+    "biography": "Biographie",
+    "blog": "Blog",
     "contact": "Contact me",
-    "askForAFreeEstimate": "Request my free quote!"
+    "askForAFreeEstimate": "Request my free quote!",
+    "callToAction": "I'm going for it!",
+    "myBlog": "MY BLOG"
   },
   "Footer": {
     "quickLinks": "Quick Links",

@@ -1,22 +1,30 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
+import { Belleza } from 'next/font/google';
+import { Metadata } from 'next';
 
-const inter = Inter({ subsets: ['latin'] });
+const fontBelleza = Belleza({
+  subsets: ["latin"],
+  weight: '400',
+  style: 'normal',
+  variable: '--font-belleza',
+});
 
 type Props = {
   params: { locale: string };
 };
 
-export async function generateMetadata({params: { locale }}: Props) {
+export async function generateMetadata({params: { locale }}: Props): Promise<Metadata> {
   const t = await getTranslations({locale, namespace: 'Metadata'});
  
   return {
     title: "Prosae",
-    description: t("description")
+    description: t("description"),
+    keywords: ["haha", "hoho", "hihi"],
+    authors: [{ name: "Jeanne Sabiron", url: "https://prosae.net" }],
   };
 }
 
@@ -31,19 +39,14 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
   unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
-      <body
-        className={clsx(
-          inter.className,
-          'flex flex-col overflow-hidden h-screen'
-        )}
-      >
+    <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
+      <body className={clsx(fontBelleza.className, 'text-2.5xl flex flex-col items-center')}>
         <Header />
-        <BannerUnderDevelopment />
-        <div className="min-h-body overflow-y-scroll">
+        {/* <BannerUnderDevelopment /> */}
+        <div className='max-w-extra mx-auto'>
           {children}
-          <Footer />
         </div>
+        <Footer />
       </body>
     </html>
   );

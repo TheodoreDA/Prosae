@@ -6,77 +6,55 @@ export default function InterpretariatPage() {
   const t = useTranslations('InterpretariatPage');
   const tNav = useTranslations('Navigation');
 
+  const highlightArrows = (text: string) => {
+    return text.split('').map((char, index) => {
+      return char === '→' || char === '↔' ? (
+        <span key={index} className="text-secondary">{char}</span>
+      ) : (
+        char
+      );
+    });
+  };
+
   return (
-    <div className='flex flex-col min-h-body mb-20 px-52'>
+    <div>
       {/* First block */}
-      <div className="flex flex-row min-h-body space-x-40">
-        <div className='w-2/5 relative'>
-          <Image src={"/interpretariat/1.JPG"} fill alt='placeholder' />
-        </div>
-        <div className='w-3/5 flex flex-col text-4xl font-light'>
-          <div className='w-full h-3/5 relative'>
-            <Image src={"/interpretariat/2.JPG"} fill alt='placeholder' />
+      <div className='flex flex-row justify-between min-h-big-body pt-20'>
+        <div className='w-[50%]'>
+          <div className='bg-primary px-24 py-10'>
+            <div className="w-full h-[41rem] relative">
+              <Image src={'/interpretariat/1.jpg'} fill style={{objectFit: "cover", objectPosition: "100% 65%"}} alt="Image one" />
+            </div>
           </div>
-          <div className='mt-8'>{t("block1")}</div>
-          <div className='mt-3'>{t("block2")}</div>
-          <div className='mt-3'>{t("block3")}</div>
+          <div className='text-5xl leading-tight mt-8'>{t('title1')}</div>
+          <div className='leading-normal text-justify mt-5'>{t('block2')}</div>
+        </div>
+        <div className='flex flex-col items-center w-[45%]'>
+          <div className='self-start text-5xl leading-normal mt-10'>
+            <div>{t('block1')}</div>
+            <div>{highlightArrows(t('frenchEnglish'))}</div>
+            <div>{highlightArrows(t('frenchSpanish'))}</div>
+          </div>
+          <div className="w-full h-[43rem] relative mt-20">
+            <Image src={'/interpretariat/2.JPG'} fill style={{objectFit: "cover", objectPosition: "100% 25%"}} alt="Image two" />
+          </div>
         </div>
       </div>
-
+      <div className="flex justify-center h-32 mt-5">
+        <div className='bg-primary absolute h-32 w-full max-w-std-screen' />
+      </div>
+      
       {/* Second block */}
-      <div className='flex flex-row min-h-body my-10'>
-        <div className='flex flex-col w-2/3 text-3xl font-light pr-20'>
-          <div className='text-5xl font-medium w-3/4'>{t("title1")}</div>
-          <div className='mt-5'>{t("block4")}</div>
-          <div className='mt-10'>{t("block5")}</div>
-        </div>
-        <div className='w-1/3 relative'>
-          <Image src={"/interpretariat/3.JPG"} fill alt='placeholder' />
-        </div>
-      </div>
-
-      {/* Third block */}
-      <div className='flex flex-col min-h-body mb-10 text-3xl font-light'>
-        <div className='text-5xl font-medium w-2/3 leading-normal'>{t("title2")}</div>
-        <div className='mt-10'>{t("block6")}</div>
-        <ul className='list-disc list-outside ml-20 mt-8'>
-          <li>{t("block7")}</li>
-          <li className='mt-8'>{t("block8")}</li>
+      <div className='min-h-body text-justify pt-20'>
+        <div className='text-5xl'>{t('title2')}</div>
+        <div className='mt-10'>{t('block3')}</div>
+        <ul className='list-disc ml-20 mt-8 space-y-8'>
+          <li>{highlightArrows(t('block4'))}</li>
+          <li>{highlightArrows(t('block5'))}</li>
         </ul>
-        <div className='mt-8'>{t("block9")}</div>
-      </div>
-
-      {/* Fourth block */}
-      <div className="w-full h-body px-20 flex flex-col">
-        <div className="text-5xl">{t('title3')}</div>
-        <div className="w-full grow mt-10 flex flex-row justify-between">
-          <div className="flex flex-col w-1/4">
-            <div className="w-full h-1/2 relative">
-              <Image src={'/interpretariat/formule_1.png'} fill alt="placeholder" />
-            </div>
-            <div className="text-4xl mt-5">{t('formula1.name')}</div>
-            <div className="text-xl font-light mt-3">{t('formula1.desc')}</div>
-          </div>
-          <div className="flex flex-col w-1/4">
-            <div className="w-full h-1/2 relative">
-              <Image src={'/interpretariat/formule_2.png'} fill alt="placeholder" />
-            </div>
-            <div className="text-4xl mt-5">{t('formula2.name')}</div>
-            <div className="text-xl font-light mt-3">{t('formula2.desc')}</div>
-          </div>
-          <div className="flex flex-col w-1/4">
-            <div className="w-full h-1/2 relative">
-              <Image src={'/interpretariat/formule_3.png'} fill alt="placeholder" />
-            </div>
-            <div className="text-4xl mt-5">{t('formula3.name')}</div>
-            <div className="text-xl font-light mt-3">{t('formula3.desc')}</div>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <NavigationLink
-            href={'/contact'}
-            className="px-10 py-3 border-2 border-black text-2xl font-light"
-          >
+        <div className='mt-8'>{t('block6')}</div>
+        <div className='flex justify-center py-28'>
+          <NavigationLink href={'/contact'} className="w-64 bg-secondary text-2xl text-center text-white rounded-2xl px-10 py-4">
             {tNav('askForAFreeEstimate')}
           </NavigationLink>
         </div>
