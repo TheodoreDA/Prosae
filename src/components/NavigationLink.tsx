@@ -1,16 +1,23 @@
 'use client';
 
 import clsx from 'clsx';
-import { ComponentProps } from 'react';
+import { ComponentPropsWithoutRef } from 'react';
 import type { AppPathnames } from '@/config';
 import { Link } from '@/navigation';
+
+interface NavigationLinkProps<Pathname extends AppPathnames> 
+  extends ComponentPropsWithoutRef<typeof Link> {
+  href: Pathname;
+  className?: string;
+  shouldntShrink?: boolean;
+}
 
 export default function NavigationLink<Pathname extends AppPathnames>({
   href,
   className,
   shouldntShrink = false,
   ...rest
-}: ComponentProps<typeof Link<Pathname>> & { shouldntShrink?: boolean }) {
+}: NavigationLinkProps<Pathname>) {
 
   return (
     <Link

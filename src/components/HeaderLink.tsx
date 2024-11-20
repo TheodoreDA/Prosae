@@ -2,14 +2,22 @@
 
 import clsx from 'clsx';
 import { useSelectedLayoutSegment } from 'next/navigation';
-import { ComponentProps } from 'react';
+import { ComponentPropsWithoutRef } from 'react';
 import type { AppPathnames } from '@/config';
 import { Link } from '@/navigation';
 
+interface HeaderLinkProps<Pathname extends AppPathnames> 
+  extends ComponentPropsWithoutRef<typeof Link> {
+  href: Pathname;
+  className?: string;
+  shouldntShrink?: boolean;
+}
+
 export default function HeaderLink<Pathname extends AppPathnames>({
   href,
+  className = "",
   ...rest
-}: ComponentProps<typeof Link<Pathname>>) {
+}: HeaderLinkProps<Pathname>) {
   const selectedLayoutSegment = useSelectedLayoutSegment();
   const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
   const isActive = pathname === href;
@@ -18,7 +26,7 @@ export default function HeaderLink<Pathname extends AppPathnames>({
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        ' inline-block uppercase text-nowrap',
+        className + ' inline-block uppercase text-nowrap',
         isActive
           ? 'text-secondary font-extrabold'
           : 'text-black hover:font-extrabold'

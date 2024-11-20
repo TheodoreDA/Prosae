@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import HeaderLink from './HeaderLink';
 import ImgNavigationLink from './ImgNavigationLink';
+import type { JSX } from "react";
 
 export default function Header(): JSX.Element {
   const t = useTranslations('Navigation');

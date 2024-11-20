@@ -2,7 +2,7 @@
 
 import { EmailData, sendEmail } from '@/utils/email';
 import { useTranslations } from 'next-intl';
-import { FormEvent, useState } from 'react';
+import { FormEvent, useState, type JSX } from 'react';
 import clsx from 'clsx';
 
 export default function Contact(): JSX.Element {

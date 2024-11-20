@@ -1,8 +1,7 @@
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
 import { Belleza } from 'next/font/google';
 import { Metadata } from 'next';
 
@@ -14,12 +13,14 @@ const fontBelleza = Belleza({
 });
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({params: { locale }}: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const { locale } = await props.params;
+
   const t = await getTranslations({locale, namespace: 'Metadata'});
- 
+
   return {
     title: "Prosae",
     description: t("description"),
@@ -29,20 +30,20 @@ export async function generateMetadata({params: { locale }}: Props): Promise<Met
 }
 
 type LayoutProps = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
   children: React.ReactNode;
 };
 
-export default function LocaleLayout({ params, children }: LayoutProps) {
-  const { locale } = params;
+export default async function LocaleLayout(props: LayoutProps) {
+  const { children } = props;
+  const { locale } = await props.params;
 
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   return (
     <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
       <body className={clsx(fontBelleza.className, 'text-2.5xl flex flex-col items-center')}>
         <Header />
-        {/* <BannerUnderDevelopment /> */}
         <div className='max-w-extra mx-auto'>
           {children}
         </div>

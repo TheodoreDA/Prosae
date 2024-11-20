@@ -1,14 +1,21 @@
 'use client';
 
-import { ComponentProps } from 'react';
+import { ComponentPropsWithoutRef } from 'react';
 import type { AppPathnames } from '../config';
 import { Link } from '@/navigation';
+
+interface AnimatedNavigationLinkProps<Pathname extends AppPathnames> 
+  extends ComponentPropsWithoutRef<typeof Link> {
+  href: Pathname;
+  className?: string;
+  shouldntShrink?: boolean;
+}
 
 export default function AnimatedNavigationLink<Pathname extends AppPathnames>({
   href,
   children,
   ...rest
-}: ComponentProps<typeof Link<Pathname>>) {
+}: AnimatedNavigationLinkProps<Pathname>) {
   return (
     <Link
       className={'relative group content-center text-center w-52 h-16'}
