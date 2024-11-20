@@ -1,10 +1,13 @@
 import NavigationLink from '@/components/NavigationLink';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
 export default function WhoAmIPage() {
   const t = useTranslations('WhoAmIPage');
   const tNav = useTranslations('Navigation');
+
+  setRequestLocale("fr");
 
   return (
     <div>

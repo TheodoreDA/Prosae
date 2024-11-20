@@ -7,6 +7,8 @@ import {
 import Image from 'next/image';
 import NavigationLink from './NavigationLink';
 
+import type { JSX } from "react";
+
 export default function Footer(): JSX.Element {
   const messages = useMessages();
   const t = useTranslations('Footer');

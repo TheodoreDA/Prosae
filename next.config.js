@@ -1,7 +1,9 @@
-const withNextIntl = require('next-intl/plugin')();
-
+const createNextIntlPlugin = require('next-intl/plugin');
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
 /** @type {import('next').NextConfig} */
-const config = {
+const nextConfig = {
   distDir: 'build',
   experimental: {
     // This is experimental but can
@@ -9,7 +11,11 @@ const config = {
     // with nextjs automatic static generation
     workerThreads: false,
     cpus: 4
-  }
-};
+  },
+  webpack: (config) => {
+    return config;
+  },
 
-module.exports = withNextIntl(config);
+};
+ 
+module.exports = withNextIntl(nextConfig);

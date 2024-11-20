@@ -1,12 +1,12 @@
+import { use } from "react";
 import AnimatedNavigationLink from '@/components/AnimatedNavigationLink';
 import BlogArticlesGrid from '@/components/BlogArticlesGrid';
-import NavigationLink from '@/components/NavigationLink';
 import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 const imageStyle = {
@@ -14,9 +14,11 @@ const imageStyle = {
   border: '1px solid #fff',
 }
 
-export default function IndexPage({ params: { locale } }: Props) {
+export default function IndexPage(props: Props) {
+  const { locale } = use(props.params);
+
   // Enable static rendering
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   const t = useTranslations('HomePage');
   const tNav = useTranslations('Navigation');

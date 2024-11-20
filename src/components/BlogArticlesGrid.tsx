@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import type { JSX } from "react";
+
 export default function BlogArticlesGrid(): JSX.Element {
 
   return (

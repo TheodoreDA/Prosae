@@ -1,4 +1,4 @@
-import { Pathnames } from 'next-intl/navigation';
+import { Pathnames } from 'next-intl/routing';
 
 export const locales = ['en', 'fr', 'es'] as const;
 
