@@ -9,6 +9,7 @@ export const pathnames = {
   '/interpretariat': '/interpretariat',
   '/biography': '/biography',
   '/contact': '/contact',
+  '/privacy_policy': '/privacy_policy',
 } satisfies Pathnames<typeof locales>;
 
 // Use the default: `always`

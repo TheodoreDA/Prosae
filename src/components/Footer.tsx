@@ -56,11 +56,7 @@ export default function Footer(): JSX.Element {
       <div className='border-t-2 border-black mt-10' />
       <div className='flex flex-row justify-between text-lg py-2 px-5'>
         <div>@2024 Prosae all rights reserved</div>
-        <div className='flex flex-row'>
-          <a href='/'>Terms of use</a>
-          <div className='mx-2'>|</div>
-          <a href='/'>Privacy Environmental Policy</a>
-        </div>
+        <NavigationLink className="w-fit" href={'/privacy_policy'}>Mentions légales & CGV</NavigationLink>
       </div>
     </div>
     );
