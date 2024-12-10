@@ -35,7 +35,7 @@ export default function Header(): JSX.Element {
             <HeaderLink href="/interpretariat">{t('interpretariat')}</HeaderLink>
             <a
               className="inline-block transition-colors uppercase text-nowrap text-black hover:font-extrabold"
-              href="https://google.com"
+              href="https://prosae.odoo.com"
             >
               {t('blog')}
             </a>
@@ -61,17 +61,18 @@ export default function Header(): JSX.Element {
               X
             </button>
             <nav className="flex flex-col space-y-4">
-              <HeaderLink href="/who_am_i">{t('whoAmI')}</HeaderLink>
-              <HeaderLink href="/biography">{t('biography')}</HeaderLink>
-              <HeaderLink href="/correction">{t('correction')}</HeaderLink>
-              <HeaderLink href="/interpretariat">{t('interpretariat')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/">{t('home')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/who_am_i">{t('whoAmI')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/biography">{t('biography')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/correction">{t('correction')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/interpretariat">{t('interpretariat')}</HeaderLink>
               <a
                 className="inline-block transition-colors uppercase text-black hover:font-extrabold"
-                href="https://google.com"
+                href="https://prosae.odoo.com"
               >
                 {t('blog')}
               </a>
-              <HeaderLink href="/contact">{t('contact')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/contact">{t('contact')}</HeaderLink>
             </nav>
           </div>
         </div>
