@@ -1,6 +1,5 @@
 import AnimatedNavigationLink from '@/components/AnimatedNavigationLink';
 import BlogArticlesGrid from '@/components/BlogArticlesGrid';
-import NavigationLink from '@/components/NavigationLink';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
@@ -24,17 +23,17 @@ export default function IndexPage({ params: { locale } }: Props) {
   return (
     <div>
       {/* First block */}
-      <div className="flex justify-center items-start min-h-body pt-14">
-        <div className="pr-20 pt-24">
+      <div className="flex flex-col xl:flex-row items-center xl:justify-center xl:items-start min-h-body pt-4 md:pt-14">
+        <div className="order-2 xl:order-1 xl:pr-20 pt-8 md:pt-24">
           {/* Text */}
-          <div className='flex flex-col items-center text-5xl space-y-5'>
+          <div className='flex flex-col items-center text-4xl sm:text-5xl space-y-5'>
             <div>{t('why')}</div>
             <div>{t('doYouNeed')}</div>
             <div>{t('myServices')}</div>
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col items-center space-y-5 text-secondary pt-10">
+          <div className="flex flex-col items-center space-y-5 text-secondary pt-5 md:pt-10">
             <AnimatedNavigationLink href={'/correction'}>
               {tNav('correction')}
             </AnimatedNavigationLink>
@@ -48,30 +47,30 @@ export default function IndexPage({ params: { locale } }: Props) {
         </div>
 
         {/* Image */}
-        <div className="w-[450px] h-[675px] relative">
+        <div className="order-1 xl:order-2 w-[309px] h-[464px] sm:w-[455px] sm:h-[683px] md:w-[540px] md:h-[811px] relative">
           <Image src={'/home/1.JPG'} style={imageStyle} fill alt="Image one"></Image>
         </div>
       </div>
 
       {/* Second block */}
-      <div className="flex justify-center items-center min-h-body mt-20">
-        <div className='bg-primary absolute min-h-body w-full max-w-std-screen' />
-        <div className='grid grid-cols-2 grid-rows-3 gap-x-6 gap-y-12 uppercase text-3xl text-secondary z-10'>
+      <div className="flex justify-center items-center min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body mt-20">
+        <div className='bg-primary absolute min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body w-full max-w-std-screen' />
+        <div className='grid grid-cols-2 grid-rows-3 gap-x-4 sm:gap-x-6 gap-y-6 sm:gap-y-9 md:gap-y-12 uppercase text-base sm:text-xl md:text-2xl text-secondary z-10'>
           <div className='text-right self-center'>{t("privacy")}</div>
-          <div className='text-7xl text-black'>{t("whatIs")}</div>
+          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("whatIs")}</div>
           <div className='text-right self-center'>{t("caring")}</div>
-          <div className='text-7xl text-black'>{t("important")}</div>
+          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("important")}</div>
           <div className='text-right self-center'>{t("reliable")}</div>
-          <div className='text-7xl text-black'>{t("ForMe")}</div>
+          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("ForMe")}</div>
         </div>
       </div>
 
       {/* Third block */}
-      <div className='flex flex-col justify-center items-center space-y-32 pt-32 pb-52'>
-        <div className='flex items-center'>
-          <div className='text-4xl pr-20'>{t("toReadMe")}</div>
+      <div className='flex flex-col justify-center items-center pt-20 lg:pt-32 pb-10 sm:pb-20 md:pb-24 lg:pb-44'>
+        <div className='flex flex-col md:flex-row items-center pb-10 sm:pb-20'>
+          <div className='text-3xl sm:text-4xl pb-8 md:pb-0 md:pr-20'>{t("toReadMe")}</div>
           <a 
-            className='content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-2xl font-light transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center'
+            className='content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-xl sm:text-2xl font-light transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center'
             href="https://prosae.odoo.com"
           >
             {tNav("myBlog")}

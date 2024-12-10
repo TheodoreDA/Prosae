@@ -6,10 +6,13 @@
     "why": "WHY",
     "doYouNeed": "DO YOU NEED",
     "myServices": "MY SERVICES?",
-    "importantForMe": "WHAT MATTERS FOR ME",
+    "whatIs": "WHAT IS",
+    "important": "IMPORTANT",
+    "ForMe": "FOR ME",
     "privacy": "Privacy",
     "caring": "Caring",
-    "reliable": "Reliable"
+    "reliable": "Reliable",
+    "toReadMe": "Pour me lire, c'est par ici !"
   },
   "BiographyPage": {
     "title1": "Why not treat yourself to the ultimate gift?",

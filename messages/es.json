@@ -6,10 +6,13 @@
     "why": "¿POR QUÉ",
     "doYouNeed": "NECESITA",
     "myServices": "MIS SERVICIOS?",
-    "importantForMe": "CE QUI EST IMPORTANT POUR MOI",
+    "whatIs": "WHAT IS",
+    "important": "IMPORTANT",
+    "ForMe": "FOR ME",
     "privacy": "Confidentialité",
     "caring": "Bienveillance",
-    "reliable": "Confiance"
+    "reliable": "Confiance",
+    "toReadMe": "Pour me lire, c'est par ici !"
   },
   "BiographyPage": {
     "title1": "No elijas y escríbelo todo.",
