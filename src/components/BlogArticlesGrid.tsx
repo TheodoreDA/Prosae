@@ -1,9 +1,8 @@
 import Image from 'next/image';
 
 export default function BlogArticlesGrid(): JSX.Element {
-
   return (
-    <div className="grid grid-cols-2 gap-6 p-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
       {articles.map((article) => (
         <div
           key={article.id}
@@ -19,8 +18,8 @@ export default function BlogArticlesGrid(): JSX.Element {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-3xl font-semibold mb-1">{article.title}</h3>
-              <p className="text-xl text-gray-700">{article.description}</p>
+              <h3 className="text-2xl sm:text-3xl font-semibold mb-1">{article.title}</h3>
+              <p className="text-lg sm:text-xl text-gray-700">{article.description}</p>
             </div>
           </a>
         </div>
@@ -37,7 +36,7 @@ interface Article {
   link: string;
 }
 
-const articles: Article[] = [
+const allArticles: Article[] = [
   {
     id: 1,
     title: "Inktober",
@@ -53,3 +52,5 @@ const articles: Article[] = [
     link: "https://prosae.odoo.com/blog/retour-de-lecture-3/retour-de-lecture-la-passe-miroir-2",
   },
 ];
+
+const articles: Article[] = allArticles.slice(-2);
