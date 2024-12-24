@@ -60,6 +60,10 @@ const config: Config = {
       fontSize: {
         '2.5xl': '1.65rem',
         '3.5xl': '2.07rem',
+        '4.5xl': '2.625rem',
+      },
+      screens: {
+        '2xl': '85rem',
       }
     },
   },
