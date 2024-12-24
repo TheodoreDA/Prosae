@@ -14,7 +14,7 @@ export default function WhoAmIPage() {
           <Image src={'/whoAmI/1.JPG'} fill style={{objectFit: "cover", objectPosition: "top"}} alt="Image one" />
         </div>
         <div className='flex flex-col xl:flex-row items-center xl:items-start justify-between mt-6 xl:mt-12'>
-          <div className='order-2 xl:order-1 w-2/6 sm:w-3/4 xl:w-[42%] text-wrap text-justify leading-snug text-2xl sm:text-3xl mx-14 2xl:mx-0 mt-4 sm:mt-6 lg:mt-10 xl:mt-0'>{t('block1')}</div>
+          <div className='order-2 xl:order-1 w-5/6 md:w-4/5 lg:3/4 xl:w-[42%] text-wrap text-justify leading-snug text-2xl sm:text-3xl mx-14 2xl:mx-0 mt-4 sm:mt-6 lg:mt-10 xl:mt-0'>{t('block1')}</div>
           <div className='order-1 xl:order-2 w-4/6 sm:w-3/4 xl:w-2/5 mx-14 2xl:mx-0 text-center xl:text-right leading-snug text-4xl sm:text-5xl font-medium'>{t('block2')}</div>
         </div>
       </div>
