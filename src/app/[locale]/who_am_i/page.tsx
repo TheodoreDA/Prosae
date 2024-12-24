@@ -46,17 +46,17 @@ export default function WhoAmIPage() {
           <div className='row-start-1 col-start-4 lg:col-start-4 col-span-3 lg:col-span-6 text-4xl sm:text-4.5xl md:text-5xl font-semibold self-center lg:mt-4'>{t('mySkills')}</div>
 
           <div className='row-start-1 lg:row-start-2 rounded-full w-10 sm:w-16 lg:w-20 h-10 sm:h-16 lg:h-20 self-center bg-tertiary' />
-          <div className='row-start-2 lg:col-start-4 col-span-3 flex justify-center items-center'>
+          <div className='row-start-2 lg:col-start-4 col-span-3 lg:col-span-2 flex lg:justify-start justify-center items-center'>
             <div className='w-20 sm:w-24 lg:w-32 h-20 sm:h-24 lg:h-32 relative'>
               <Image src={"/logos/logo-voltaire.jpg"} fill alt='logo-voltaire' />
             </div>
           </div>
-          <div className='row-start-3 lg:row-start-2 col-span-3 lg:col-span-5 flex justify-center items-center'>
+          <div className='row-start-3 lg:row-start-2 col-span-3 lg:col-span-5 flex lg:justify-start justify-center items-center'>
             <div className='w-40 sm:w-60 md:w-80 h-16 sm:h-24 md:h-32 relative'>
               <Image src={"/logos/logo-eflc.jpg"} fill alt='logo-eflc' />
             </div>
           </div>
-          <div className='row-start-4 lg:row-start-2 col-span-3 lg:col-span-5 flex justify-center items-center'>
+          <div className='row-start-4 lg:row-start-2 col-span-3 lg:col-span-5 flex lg:justify-start justify-center items-center'>
             <div className='w-24 sm:w-28 lg:w-36 h-24 sm:h-28 lg:h-36 relative'>
               <Image src={"/logos/logo-plume-academie.png"} fill alt='logo-plume-academie' />
             </div>
@@ -64,7 +64,7 @@ export default function WhoAmIPage() {
 
           <div className='row-start-1 lg:row-start-3 rounded-full w-10 sm:w-16 lg:w-20 h-10 sm:h-16 lg:h-20 self-center bg-primary' />
           <div className='row-start-2 lg:row-start-3 col-span-2 lg:col-span-3 col-start-4 lg:col-start-4 text-xl sm:text-2xl self-center'>{t('voltaire')}</div>
-          <div className='row-start-3 lg:row-start-3 col-span-2 lg:col-span-5 col-start-4 lg:col-start-auto text-xl sm:text-2xl self-center'>{t('eflc')}</div>
+          <div className='row-start-3 lg:row-start-3 col-span-2 lg:col-span-4 col-start-4 lg:col-start-auto text-xl sm:text-2xl self-center'>{t('eflc')}</div>
           <div className='row-start-4 lg:row-start-3 col-span-2 lg:col-span-4 col-start-4 lg:col-start-auto text-xl sm:text-2xl self-center lg:mt-[33px]'>{t('biography')}</div>
         </div>
       </div>
