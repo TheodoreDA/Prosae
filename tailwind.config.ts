@@ -44,6 +44,7 @@ const config: Config = {
       },
       maxWidth: {
         '1/2': '50%',
+        '1/3': '33.333333%',
         '2/5': '40%',
         'extra': '85rem',
         'std-screen': '120rem'
