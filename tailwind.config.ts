@@ -20,6 +20,7 @@ const config: Config = {
         'oval': '50%',
       },
       height: {
+        '11/12': "91.666667%",
         'header': '6rem',
         'footer': '21rem'
       },
