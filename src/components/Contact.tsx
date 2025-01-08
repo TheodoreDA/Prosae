@@ -32,11 +32,11 @@ export default function Contact(): JSX.Element {
 
   return (
     <div className='w-full'>
-      <form className='flex flex-col space-y-10 w-full mt-20' onSubmit={onSubmit}>
-          <div className='flex flex-row space-x-10'>  
+      <form className='flex flex-col space-y-10 w-full mt-16' onSubmit={onSubmit}>
+          <div className='flex flex-col md:flex-row md:space-x-10'>  
             <input
               id="name"
-              className='bg-lighGray w-1/2 p-5 rounded-sm'
+              className='bg-lighGray md:w-1/2 p-5 rounded-sm'
               placeholder={tForm("namePlaceholder")}
               name='name'
               type='text'
@@ -45,7 +45,7 @@ export default function Contact(): JSX.Element {
             />
             <input
               id="email"
-              className='bg-lighGray w-1/2 p-5 rounded-sm'
+              className='bg-lighGray mt-10 md:mt-0 md:w-1/2 p-5 rounded-sm'
               placeholder={tForm("emailPlaceholder")}
               name='email'
               type='email'
