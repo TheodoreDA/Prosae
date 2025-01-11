@@ -1,6 +1,6 @@
 export default function PrivacyPolicyPage() {
   return (
-    <div className="w-extra text-2xl text-justify pb-20">
+    <div className="w-extra text-2xl lg:text-justify pb-20">
       {/* First page */}
       <h1 className="text-5xl mt-20">Mentions légales</h1>
       <div className="flex justify-between mt-12">

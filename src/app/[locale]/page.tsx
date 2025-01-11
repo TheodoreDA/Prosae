@@ -26,10 +26,8 @@ export default function IndexPage({ params: { locale } }: Props) {
       <div className="flex flex-col xl:flex-row items-center xl:justify-center xl:items-start min-h-body pt-4 md:pt-14">
         <div className="order-2 xl:order-1 xl:pr-20 pt-8 md:pt-24">
           {/* Text */}
-          <div className='flex flex-col items-center text-4xl sm:text-5xl space-y-5'>
-            <div>{t('why')}</div>
-            <div>{t('doYouNeed')}</div>
-            <div>{t('myServices')}</div>
+          <div className='flex flex-col items-center text-4xl sm:text-5xl text-center space-y-5'>
+            <h1>{t.rich("whyMyServices", { br: () => <br /> })}</h1>
           </div>
 
           {/* Buttons */}
@@ -56,19 +54,19 @@ export default function IndexPage({ params: { locale } }: Props) {
       <div className="flex justify-center items-center min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body mt-20">
         <div className='bg-primary absolute min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body w-full max-w-std-screen' />
         <div className='grid grid-cols-2 grid-rows-3 gap-x-4 sm:gap-x-6 gap-y-6 sm:gap-y-9 md:gap-y-12 uppercase text-base sm:text-xl md:text-2xl text-secondary z-10'>
-          <div className='text-right self-center'>{t("privacy")}</div>
-          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("whatIs")}</div>
-          <div className='text-right self-center'>{t("caring")}</div>
-          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("important")}</div>
-          <div className='text-right self-center'>{t("reliable")}</div>
-          <div className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("ForMe")}</div>
+          <h1 className='text-right self-center'>{t("privacy")}</h1>
+          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("whatIs")}</h1>
+          <h1 className='text-right self-center'>{t("caring")}</h1>
+          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("important")}</h1>
+          <h1 className='text-right self-center'>{t("reliable")}</h1>
+          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("ForMe")}</h1>
         </div>
       </div>
 
       {/* Third block */}
       <div className='flex flex-col justify-center items-center pt-20 lg:pt-32 pb-10 sm:pb-20 md:pb-24 lg:pb-44'>
         <div className='flex flex-col md:flex-row items-center pb-10 sm:pb-20'>
-          <div className='text-3xl sm:text-4xl pb-8 md:pb-0 md:pr-20'>{t("toReadMe")}</div>
+          <h2 className='text-3xl sm:text-4xl pb-8 md:pb-0 md:pr-20'>{t("toReadMe")}</h2>
           <a 
             className='content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-xl sm:text-2xl font-light transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center'
             href="https://prosae.odoo.com"

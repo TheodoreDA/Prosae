@@ -17,8 +17,8 @@ export default function Header(): JSX.Element {
   return (
     <>
       <header className="sticky top-0 z-30 flex justify-between lg:justify-center max-w-std-screen w-full bg-white pb-5 pt-10 xl:py-5">
-        <div className="flex justify-between w-extra mx-10 md:mx-16 lg:mx-20 border-black border-b xl:border-0">
-          <div className="w-16 h-16 relative xl:hidden cursor-pointer mr-10" onClick={toggleDrawer}>
+        <div className="flex justify-between w-extra py-2 mx-10 md:mx-16 lg:mx-20 border-black border-b xl:border-0">
+          <div className="w-10 h-10 relative xl:hidden cursor-pointer mr-10" onClick={toggleDrawer}>
             <Image src={'/icons/menu-mobile-icon.png'} fill alt="menu-mobile-icon" />
           </div>
 

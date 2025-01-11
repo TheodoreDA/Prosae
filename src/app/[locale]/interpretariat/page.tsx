@@ -6,25 +6,19 @@ export default function InterpretariatPage() {
   const t = useTranslations('InterpretariatPage');
   const tNav = useTranslations('Navigation');
 
-  const highlightArrows = (text: string) => {
-    return text.split('').map((char, index) => {
-      return char === '→' || char === '↔' ? (
-        <span key={index} className="text-secondary">{char}</span>
-      ) : (
-        char
-      );
-    });
-  };
-
   return (
     <div>
       {/* First block */}
       <div className='flex flex-col lg:flex-row justify-between px-5 sm:px-10 lg:px-0 lg:pt-10 xl:pt-20'>
         <div className='lg:order-2 flex flex-col items-center lg:w-[46%]'>
           <div className='self-start text-3.5xl sm:text-5xl leading-tight md:leading-normal mt-5 xl:mt-10'>
-            <div>{t('block1')}</div>
-            <div>{highlightArrows(t('frenchEnglish'))}</div>
-            <div>{highlightArrows(t('frenchSpanish'))}</div>
+            <h1 className='text-center lg:text-left'>
+              {t.rich('iInterpretForYou', {
+                br: () => <br className='hidden lg:block' />,
+                nowrap: (content) => <span className='text-nowrap'>{content}</span>,
+                orange: (arrows) => <span className='text-secondary'>{arrows}</span>
+              })}
+            </h1>
           </div>
           <div className="w-full h-[43rem] relative hidden lg:block mt-10 xl:mt-20">
             <Image src={'/interpretariat/2.JPG'} fill style={{objectFit: "cover", objectPosition: "100% 25%"}} alt="Image two" />
@@ -37,8 +31,12 @@ export default function InterpretariatPage() {
             </div>
           </div>
           <div className='lg:ml-5 2xl:ml-0'>
-            <div className='text-3.5xl sm:text-5xl leading-tight mt-8'>{t('title1')}</div>
-            <div className='leading-normal text-justify mt-5'>{t('block2')}</div>
+            <h2 className='text-3.5xl sm:text-5xl leading-tight mt-8'>
+              {t.rich('title1', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
+            </h2>
+            <p className='leading-normal lg:text-justify mt-5'>
+              {t.rich('block2', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
+            </p>
           </div>
         </div>
       </div>
@@ -47,14 +45,26 @@ export default function InterpretariatPage() {
       </div>
       
       {/* Second block */}
-      <div className='text-justify pt-14 md:pt-20 mx-5 sm:mx-10 2xl:mx-0'>
-        <div className='text-5xl'>{t('title2')}</div>
-        <div className='mt-10'>{t('block3')}</div>
+      <div className='lg:text-justify pt-14 md:pt-20 mx-5 sm:mx-10 2xl:mx-0'>
+        <h2 className='text-5xl'>
+          {t.rich('title2', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
+        </h2>
+        <p className='mt-10'>{t('block3')}</p>
         <ul className='list-disc ml-20 mt-8 space-y-8'>
-          <li>{highlightArrows(t('block4'))}</li>
-          <li>{highlightArrows(t('block5'))}</li>
+          <li>
+            {t.rich('block4', {
+              orange: (arrows) => <span className='text-secondary'>{arrows}</span>,
+              nowrap: (content) => <span className='text-nowrap'>{content}</span>,
+            })}
+          </li>
+          <li>
+            {t.rich('block5', {
+              orange: (arrows) => <span className='text-secondary'>{arrows}</span>,
+              nowrap: (content) => <span className='text-nowrap'>{content}</span>,
+            })}
+          </li>
         </ul>
-        <div className='mt-8'>{t('block6')}</div>
+        <p className='mt-8'>{t('block6')}</p>
         <div className='flex justify-center py-20 lg:py-28'>
           <NavigationLink href={'/contact'} className="w-64 bg-secondary text-2xl text-center text-white rounded-2xl px-10 py-4">
             {tNav('askForAFreeEstimate')}

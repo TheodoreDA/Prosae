@@ -60,9 +60,48 @@ const config: Config = {
         '16': 'repeat(16, minmax(0, 1fr))'
       },
       fontSize: {
-        '2.5xl': '1.65rem',
-        '3.5xl': '2.07rem',
-        '4.5xl': '2.625rem',
+        '2xl': [
+          '1.5rem',
+          {
+            'lineHeight': "2.25rem"
+          }
+        ],
+        '2.5xl': [
+          '1.65rem',
+          {
+            'lineHeight': "2.375rem"
+          }
+        ],
+        '3xl': [
+          '1.875rem',
+          {
+            'lineHeight': "2.5rem"
+          }
+        ],
+        '3.5xl': [
+          '2.07rem',
+          {
+            'lineHeight': "2.625rem"
+          }
+        ],
+        '4xl': [
+          '2.25rem',
+          {
+            'lineHeight': "2.75rem"
+          }
+        ],
+        '4.5xl': [
+          '2.625rem',
+          {
+            'lineHeight': "2.875rem"
+          }
+        ],
+        '5xl': [
+          '3rem',
+          {
+            'lineHeight': "3.5rem"
+          }
+        ],
       },
       screens: {
         '2xl': '85rem',

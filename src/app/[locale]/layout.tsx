@@ -2,17 +2,16 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import clsx from 'clsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import BannerUnderDevelopment from '@/components/BannerUnderDevelopment';
-import { Belleza } from 'next/font/google';
+import { Belleza, Raleway } from 'next/font/google';
 import { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import pick from 'lodash/pick';
 
-const fontBelleza = Belleza({
+const fontRaleway = Raleway({
   subsets: ["latin"],
   weight: '400',
   style: 'normal',
-  variable: '--font-belleza',
+  variable: '--font-raleway',
 });
 
 type Props = {
@@ -23,9 +22,22 @@ export async function generateMetadata({params: { locale }}: Props): Promise<Met
   const t = await getTranslations({locale, namespace: 'Metadata'});
  
   return {
-    title: "Prosae",
+    title: {
+      default: "Prosae - Correction, interprétariat et biographie",
+      template: "%s - Prosae"
+    },
     description: t("description"),
-    keywords: ["haha", "hoho", "hihi"],
+    /*
+    metadataBase: new URL('https://prosae.net'),
+    alternates: {
+      canonical: '/',
+      languages: {
+        'en': '/en',
+        'fr': '/fr',
+        'es': '/es',
+      },
+    },
+     */
     authors: [{ name: "Jeanne Sabiron", url: "https://prosae.net" }],
   };
 }
@@ -42,12 +54,11 @@ export default function LocaleLayout({ params, children }: LayoutProps) {
   unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${fontBelleza.variable} font-sans`}>
-      <body className={clsx(fontBelleza.className, 'text-2xl sm:text-2.5xl flex flex-col items-center')}>
+    <html lang={locale} className={`${fontRaleway.variable} font-sans`}>
+      <body className={clsx(fontRaleway.className, 'text-2xl sm:text-2.5xl flex flex-col items-center')}>
         <NextIntlClientProvider messages={pick(messages, 'Navigation')}>
           <Header />
         </NextIntlClientProvider>
-        {/* <BannerUnderDevelopment /> */}
         <div className='max-w-extra mx-auto'>
           {children}
         </div>
