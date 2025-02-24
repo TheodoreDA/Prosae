@@ -22,7 +22,7 @@ export default function BiographyPage() {
     },
     {
       src: "/biography/6.jpg",
-      desc: t('title8')
+      desc: t.rich('title8', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })
     },
   ];
 

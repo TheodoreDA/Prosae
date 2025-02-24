@@ -21,9 +21,9 @@ export default function Footer(): JSX.Element {
             <div className='grid gap-x-5 gap-y-1 grid-cols-2 pt-2 sm:pt-4'>
               <NavigationLink className="w-28 sm:w-fit" href={'/'}>{tNav('home')}</NavigationLink>
               <NavigationLink className="w-28 sm:w-fit" href={'/interpretariat'}>{tNav('interpretariat')}</NavigationLink>
-              <NavigationLink className="w-28 sm:w-fit" href={'/who_am_i'}>{tNav('whoAmI')}</NavigationLink>
+              <NavigationLink className="w-28 sm:w-fit" href={'/qui_suis_je'}>{tNav('whoAmI')}</NavigationLink>
               <a className='w-28 sm:w-fit inline-block transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center' href="https://prosae.odoo.com">{tNav('blog')}</a>
-              <NavigationLink className="w-28 sm:w-fit" href={'/biography'}>{tNav('biography')}</NavigationLink>
+              <NavigationLink className="w-28 sm:w-fit" href={'/biographie'}>{tNav('biography')}</NavigationLink>
               <NavigationLink className="w-28 sm:w-fit" href={'/contact'}>{tNav('contact')}</NavigationLink>
               <NavigationLink className="w-28 sm:w-fit" href={'/correction'}>{tNav('correction')}</NavigationLink>
             </div>
@@ -56,7 +56,7 @@ export default function Footer(): JSX.Element {
       <div className='border-t-1 md:border-t-2 border-black mt-10' />
       <div className='flex flex-row justify-between text-base sm:text-lg py-2 px-5'>
         <div>@2025 Prosae all rights reserved</div>
-        <NavigationLink className="w-fit" href={'/privacy_policy'}>Mentions légales & CGV</NavigationLink>
+        <NavigationLink className="w-fit" href={'/politique_confidentialite'}>Mentions légales & CGV</NavigationLink>
       </div>
     </div>
     );

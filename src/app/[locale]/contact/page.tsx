@@ -22,7 +22,7 @@ export default function ContactPage() {
           <p className='leading-relaxed mt-4 sm:mt-8'>{t("block1")}</p>
           <NavigationLink
             href={'/contact#questions'}
-            className="w-fit self-center text-center rounded-full text-white bg-secondary mt-14 xl:mt-24 px-10 py-3"
+            className="w-fit text-2xl self-center text-center rounded-full text-white bg-secondary mt-14 xl:mt-24 px-10 py-3"
           >
             {t.rich('askYourFreeEstimate', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </NavigationLink>
@@ -31,7 +31,7 @@ export default function ContactPage() {
 
       {/* Second block */}
       <div className='flex flex-col items-center pb-10 sm:pb-20 lg:pb-32 px-6 md:px-10 2xl:px-0'>
-        <h2 id='questions' className='text-4.5xl sm:text-5xl pt-16 md:pt-24'>{t("title2")}</h2>
+        <h2 id='questions' className='scroll-mt-16 text-4.5xl sm:text-5xl pt-16 md:pt-24'>{t("title2")}</h2>
         <p className='leading-relaxed lg:text-justify mt-5 sm:mt-10'>{t("block2")}</p>
         <NextIntlClientProvider messages={pick(messages, 'Form')}>
           <Contact />

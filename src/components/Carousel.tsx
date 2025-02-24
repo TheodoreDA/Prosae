@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { JSXElementConstructor, ReactElement, ReactNodeArray, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 
 export interface CarouselImage {
   src: string;
-  desc: string;
+  desc: string | ReactElement<any, string | JSXElementConstructor<any>> | ReactNodeArray;
 }
 
 export default function Carousel({ images, className }: Props): JSX.Element {
@@ -55,7 +55,7 @@ export default function Carousel({ images, className }: Props): JSX.Element {
             className="absolute flex h-full w-full transition-all duration-300"
           >
             {/* Map through data to render images */}
-            {images.map((image, i) => (
+            {images.map((image: CarouselImage, i: number) => (
               <div key={i} className='w-full shrink-0'>
                 <div className="relative h-11/12 w-full ">
                   <Image

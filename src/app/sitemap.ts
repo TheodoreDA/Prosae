@@ -35,22 +35,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
     {
-      url: BASE_URL + '/biography',
+      url: BASE_URL + '/biographie',
       lastModified: new Date(),
       priority: 0.9,
       alternates: {
         languages: {
-          fr: BASE_URL + '/fr/biography',
+          fr: BASE_URL + '/fr/biographie',
         },
       },
     },
     {
-      url: BASE_URL + '/who_am_i',
+      url: BASE_URL + '/qui_suis_je',
       lastModified: new Date(),
       priority: 0.8,
       alternates: {
         languages: {
-          fr: BASE_URL + '/fr/who_am_i',
+          fr: BASE_URL + '/fr/qui_suis_je',
         },
       },
     },

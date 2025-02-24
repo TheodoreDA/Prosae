@@ -18,7 +18,7 @@ export default function BlogArticlesGrid(): JSX.Element {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-2xl sm:text-3xl font-semibold mb-1">{article.title}</h3>
+              <h4 className="text-2xl sm:text-3xl font-semibold mb-1">{article.title}</h4>
               <p className="text-lg sm:text-xl text-gray-700">{article.description}</p>
             </div>
           </a>
@@ -51,6 +51,20 @@ const allArticles: Article[] = [
     image: "/blog/lecture_Passe-Miroir.webp",
     link: "https://prosae.odoo.com/blog/retour-de-lecture-3/retour-de-lecture-la-passe-miroir-2",
   },
+  {
+    id: 4,
+    title: "Rêves VS réalité",
+    description: "« Qu'est-ce que tu veux faire quand tu seras grande ? »",
+    image: "/blog/Reves_VS_realite.webp",
+    link: "https://prosae.odoo.com/blog/anecdotes-2/reves-vs-realite-7"
+  },
+  {
+    id: 3,
+    title: "En entretien biographique...",
+    description: "Une expérience immersive digne des plus grands films",
+    image: "/blog/entretien_biographique.webp",
+    link: "https://prosae.odoo.com/blog/biographie-4/en-entretien-biographique-3"
+  }
 ];
 
 const articles: Article[] = allArticles.slice(-2);

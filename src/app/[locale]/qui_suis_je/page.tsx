@@ -10,10 +10,7 @@ export default function WhoAmIPage() {
     <div>
       {/* First block */}
       <div className="flex flex-col pt-4">
-        <div className="w-full h-[200px] sm:h-[225px] md:h-[280px] lg:h-[380px] xl:h-[450px] relative">
-          <Image src={'/whoAmI/1.JPG'} fill style={{objectFit: "cover", objectPosition: "top"}} alt="Image one" />
-        </div>
-        <div className='flex flex-col xl:flex-row items-center xl:items-start justify-between mt-6 xl:mt-12'>
+        <div className='sm:order-2 flex flex-col xl:flex-row items-center xl:items-start justify-between sm:mt-6 xl:mt-12'>
           <h2 className='order-2 xl:order-1 w-5/6 md:w-4/5 lg:3/4 xl:w-[42%] text-wrap lg:text-justify leading-snug text-2xl sm:text-3xl mx-14 2xl:mx-0 mt-4 sm:mt-6 lg:mt-10 xl:mt-0'>
             {t.rich('block1', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </h2>
@@ -21,23 +18,28 @@ export default function WhoAmIPage() {
             {t.rich('block2', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </h1>
         </div>
+        <div className="sm:order-1 w-full h-[200px] sm:h-[225px] md:h-[280px] lg:h-[380px] xl:h-[450px] relative mt-5 sm:mt-0">
+          <Image src={'/whoAmI/1.JPG'} fill style={{objectFit: "cover", objectPosition: "top"}} alt="Image one" />
+        </div>
       </div>
 
       {/* Second block */}
-      <div className='pt-10'>
-        <div className='w-[45%] max-w-[32rem] h-[585px] md:h-[605px] lg:h-[630px] xl:h-[720px] relative float-left mr-10'>
-          <Image src={'/whoAmI/2.JPG'} fill style={{objectFit: "cover", objectPosition: "top"}} alt="Image two" />
-        </div>
-        <div className='w-full lg:text-justify text-2xl sm:text-3xl 2xl:px-0 px-16'>
-          <h3 className='hidden md:block text-5xl font-semibold lg:mt-4'>
+      <div className='pt-10 pb-40 '>
+        <div className='sm:order-2 w-full lg:text-justify text-2xl sm:text-3xl 2xl:px-0 px-16'>
+          <h3 className='sm:hidden md:block text-5xl font-semibold lg:mt-4'>
             {t.rich('title1', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </h3>
-          <p className='md:mt-6 xl:mt-10'>
+          <p className='mt-4 sm:mt-0 md:mt-6 xl:mt-10'>
             {t.rich('block3', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </p>
           <p className='mt-6'>
           {t.rich('block4', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </p>
+        </div>
+        <div className='sm:order-1 w-full sm:w-[45%] h-[585px] md:h-[605px] lg:h-[630px] xl:h-[720px] relative sm:float-left mt-6 sm:mt-0 sm:mr-10'>
+          <Image src={'/whoAmI/2.JPG'} fill style={{objectFit: "cover", objectPosition: "top"}} alt="Image two" />
+        </div>
+        <div className='order-3 w-full lg:text-justify text-2xl sm:text-3xl 2xl:px-0 px-16'>
           <p className='mt-6'>
             {t.rich('block5', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </p>
@@ -51,7 +53,7 @@ export default function WhoAmIPage() {
       <div className='items-center'>
         <div className='flex items-center justify-center py-10 lg:px-24 my-10 sm:my-14 md:my-20 mx-14'>
           <div className='bg-primary absolute min-h-28 sm:min-h-48 md:min-h-56 lg:min-h-40 w-full max-w-std-screen' />
-          <NavigationLink className='m-0 z-20 text-nowrap text-2xl sm:text-3xl border-2 border-black px-8 sm:px-14 py-3 sm:py-5' href={"/biography"}>{tNav('callToAction')}</NavigationLink>
+          <NavigationLink className='m-0 z-20 text-nowrap text-2xl sm:text-3xl border-2 border-black px-8 sm:px-14 py-3 sm:py-5' href={"/biographie"}>{tNav('callToAction')}</NavigationLink>
           <div className='z-20 w-full border-b-1 border-black ml-14' />
         </div>
 

@@ -1,4 +1,4 @@
-import AnimatedNavigationLink from '@/components/AnimatedNavigationLink';
+import AnimatedTitleNavigationLink from '@/components/AnimatedTitleNavigationLink';
 import BlogArticlesGrid from '@/components/BlogArticlesGrid';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
@@ -27,20 +27,20 @@ export default function IndexPage({ params: { locale } }: Props) {
         <div className="order-2 xl:order-1 xl:pr-20 pt-8 md:pt-24">
           {/* Text */}
           <div className='flex flex-col items-center text-4xl sm:text-5xl text-center space-y-5'>
-            <h1>{t.rich("whyMyServices", { br: () => <br /> })}</h1>
+            <h2>{t.rich("whyMyServices", { br: () => <br /> })}</h2>
           </div>
 
           {/* Buttons */}
           <div className="flex flex-col items-center space-y-5 text-secondary pt-5 md:pt-10">
-            <AnimatedNavigationLink href={'/correction'}>
-              {tNav('correction')}
-            </AnimatedNavigationLink>
-            <AnimatedNavigationLink href={'/biography'}>
+            <AnimatedTitleNavigationLink href={'/biographie'}>
               {tNav('biography')}
-            </AnimatedNavigationLink>
-            <AnimatedNavigationLink href={'/interpretariat'}>
+            </AnimatedTitleNavigationLink>
+            <AnimatedTitleNavigationLink href={'/correction'}>
+              {tNav('correction')}
+            </AnimatedTitleNavigationLink>
+            <AnimatedTitleNavigationLink href={'/interpretariat'}>
               {tNav('interpretariat')}
-            </AnimatedNavigationLink>
+            </AnimatedTitleNavigationLink>
           </div>
         </div>
 
@@ -54,19 +54,19 @@ export default function IndexPage({ params: { locale } }: Props) {
       <div className="flex justify-center items-center min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body mt-20">
         <div className='bg-primary absolute min-h-96 sm:min-h-[450px] md:min-h-[550px] lg:min-h-body w-full max-w-std-screen' />
         <div className='grid grid-cols-2 grid-rows-3 gap-x-4 sm:gap-x-6 gap-y-6 sm:gap-y-9 md:gap-y-12 uppercase text-base sm:text-xl md:text-2xl text-secondary z-10'>
-          <h1 className='text-right self-center'>{t("privacy")}</h1>
-          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("whatIs")}</h1>
-          <h1 className='text-right self-center'>{t("caring")}</h1>
-          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("important")}</h1>
-          <h1 className='text-right self-center'>{t("reliable")}</h1>
-          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("ForMe")}</h1>
+          <h2 className='text-right self-center'>{t("privacy")}</h2>
+          <h2 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("whatIs")}</h2>
+          <h2 className='text-right self-center'>{t("caring")}</h2>
+          <h2 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("important")}</h2>
+          <h2 className='text-right self-center'>{t("reliable")}</h2>
+          <h2 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-black'>{t("ForMe")}</h2>
         </div>
       </div>
 
       {/* Third block */}
       <div className='flex flex-col justify-center items-center pt-20 lg:pt-32 pb-10 sm:pb-20 md:pb-24 lg:pb-44'>
         <div className='flex flex-col md:flex-row items-center pb-10 sm:pb-20'>
-          <h2 className='text-3xl sm:text-4xl pb-8 md:pb-0 md:pr-20'>{t("toReadMe")}</h2>
+          <h3 className='text-3xl sm:text-4xl pb-8 md:pb-0 md:pr-20'>{t("toReadMe")}</h3>
           <a 
             className='content-center text-center w-52 h-16 border-2 border-secondary text-secondary text-xl sm:text-2xl font-light transition-all duration-300 ease-in-out hover:scale-90 transform-origin-center'
             href="https://prosae.odoo.com"

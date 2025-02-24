@@ -27,7 +27,7 @@ export default function CorrectionPage() {
       <div className="flex flex-col lg:flex-row pt-8 sm:pt-14">
         <div className='flex flex-col items-center lg:items-start lg:w-1/2 px-5 sm:px-10 xl:px-14 2xl:pr-20 2xl:pl-0 lg:pt-14'>
           <h2 className='text-3xl sm:text-4.5xl xl:text-5xl'>
-            {t.rich('block1', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
+            {t.rich('title1', { nowrap: (content) => <span className='text-nowrap'>{content}</span> })}
           </h2>
           <div className='sm:w-[550px] lg:w-full h-[380px] sm:h-full grid grid-cols-2 grid-rows-4 gap-x-4 sm:gap-x-12 xl:gap-x-16 text-base sm:text-xl text-center text-white pt-5 sm:pt-10 md:pt-14 xl:pt-16'>
             <h4 className='bg-secondary col-start-1 row-start-1 self-center rounded-2xl px-2 py-2 sm:py-4'>{t('spelling')}<br />{t('grammar')}<br />{t('conjugation')}</h4>

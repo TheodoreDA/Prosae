@@ -23,7 +23,7 @@ export async function generateMetadata({params: { locale }}: Props): Promise<Met
  
   return {
     title: {
-      default: "Prosae - Correction, interprétariat et biographie",
+      default: "Prosae - Biographie, correction et interprétariat",
       template: "%s - Prosae"
     },
     description: t("description"),

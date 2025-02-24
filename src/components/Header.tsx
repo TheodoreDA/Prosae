@@ -29,8 +29,8 @@ export default function Header(): JSX.Element {
           />
 
           <div className="hidden z-30 pl-14 pr-14 xl:flex flex-row space-x-10 items-center text-xl pb-5 border-black border-b-1">
-            <HeaderLink href="/who_am_i">{t('whoAmI')}</HeaderLink>
-            <HeaderLink href="/biography">{t('biography')}</HeaderLink>
+            <HeaderLink href="/qui_suis_je">{t('whoAmI')}</HeaderLink>
+            <HeaderLink href="/biographie">{t('biography')}</HeaderLink>
             <HeaderLink href="/correction">{t('correction')}</HeaderLink>
             <HeaderLink href="/interpretariat">{t('interpretariat')}</HeaderLink>
             <a
@@ -62,8 +62,8 @@ export default function Header(): JSX.Element {
             </button>
             <nav className="flex flex-col space-y-4">
               <HeaderLink onClick={toggleDrawer} href="/">{t('home')}</HeaderLink>
-              <HeaderLink onClick={toggleDrawer} href="/who_am_i">{t('whoAmI')}</HeaderLink>
-              <HeaderLink onClick={toggleDrawer} href="/biography">{t('biography')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/qui_suis_je">{t('whoAmI')}</HeaderLink>
+              <HeaderLink onClick={toggleDrawer} href="/biographie">{t('biography')}</HeaderLink>
               <HeaderLink onClick={toggleDrawer} href="/correction">{t('correction')}</HeaderLink>
               <HeaderLink onClick={toggleDrawer} href="/interpretariat">{t('interpretariat')}</HeaderLink>
               <a
