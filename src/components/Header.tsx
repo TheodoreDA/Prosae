@@ -28,7 +28,7 @@ export default function Header(): JSX.Element {
             alt="prosae-logo"
           />
 
-          <div className="hidden z-30 pl-14 pr-14 xl:flex flex-row space-x-10 items-center text-xl pb-5 border-black border-b-1">
+          <div className="hidden z-30 px-4 mx-10 xl:flex flex-row space-x-10 items-center text-xl pb-5 border-secondary border-b-1">
             <HeaderLink href="/qui_suis_je">{t('whoAmI')}</HeaderLink>
             <HeaderLink href="/biographie">{t('biography')}</HeaderLink>
             <HeaderLink href="/correction">{t('correction')}</HeaderLink>

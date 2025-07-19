@@ -23,10 +23,11 @@ export default function IndexPage({ params: { locale } }: Props) {
   return (
     <div>
       {/* First block */}
-      <div className="flex flex-col xl:flex-row items-center xl:justify-center xl:items-start min-h-body pt-4 md:pt-14">
-        <div className="order-2 xl:order-1 xl:pr-20 pt-8 md:pt-24">
+      <div className="flex flex-col xl:flex-row items-center xl:justify-center xl:items-start min-h-body">
+        <div className='z-[-1] bg-primary absolute min-h-[300px] sm:min-h-[650px] md:min-h-[750px] lg:min-h-body w-full max-w-std-screen' />
+        <div className="order-2 xl:order-1 xl:pr-20 self-center">
           {/* Text */}
-          <div className='flex flex-col items-center text-4xl sm:text-5xl text-center space-y-5'>
+          <div className='flex flex-col items-center text-black text-4xl sm:text-5xl text-center space-y-5'>
             <h2>{t.rich("whyMyServices", { br: () => <br /> })}</h2>
           </div>
 
@@ -45,7 +46,7 @@ export default function IndexPage({ params: { locale } }: Props) {
         </div>
 
         {/* Image */}
-        <div className="order-1 xl:order-2 w-[309px] h-[464px] sm:w-[455px] sm:h-[683px] md:w-[540px] md:h-[811px] relative">
+        <div className="order-1 xl:order-2 w-[309px] h-[464px] sm:w-[455px] sm:h-[683px] md:w-[433px] md:h-[650px] relative self-center">
           <Image src={'/home/1.JPG'} style={imageStyle} fill alt="Image one"></Image>
         </div>
       </div>
